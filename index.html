@@ -842,6 +842,20 @@
     .cycle-step:not(:last-child)::after{display:block; right:auto; top:auto; left:50%; bottom:-48px; transform:translateX(-50%);
       width:42px; height:42px; background-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 5v13M5 12l7 7 7-7' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); background-size:24px;}
   }
+  .about-eyebrow{display:block; margin-bottom:22px;}
+  .creds-title{font-family:var(--serif); font-size:22px; color:var(--ink); margin:30px 0 4px;}
+  .answer{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:18px; margin:18px 0 18px;}
+  .answer>div{background:#111; color:var(--cream,#F2EBDD); padding:24px 22px; display:flex; flex-direction:column; gap:6px;}
+  .answer-who{font-size:15px; color:var(--gold,#C6A15B); font-weight:700;}
+  .answer b{font-family:var(--serif); font-size:30px; line-height:1.3; color:#fff;}
+  .answer-amt{font-size:15px; opacity:.8;}
+  details.howto{margin:0 0 8px; border:1px solid var(--line,#e5ded0); background:var(--card,#fff);}
+  details.howto>summary{cursor:pointer; list-style:none; padding:16px 20px; font-weight:700; color:var(--gold-deep,#9C7A3C); font-size:16px; display:flex; justify-content:space-between; align-items:center;}
+  details.howto>summary::-webkit-details-marker{display:none;}
+  details.howto>summary::after{content:"＋"; font-size:20px;}
+  details.howto[open]>summary::after{content:"－";}
+  .howto-body{padding:0 20px 20px;}
+  @media (max-width:600px){ .answer{grid-template-columns:minmax(0,1fr);} .answer b{font-size:27px;} .creds-title{font-size:21px;} }
 </style>
 <a class="skip-link" href="#main">跳至主要內容</a>
 <style id="mobile-typo">
@@ -1062,6 +1076,7 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <!-- WHY ME -->
 <section class="section" id="about">
 <div class="wrap">
+<span class="eyebrow about-eyebrow">關於 Ginger</span>
 <div class="about">
 <div class="about-photo">
 <img alt="Ginger Lin 林逸蓁" height="1024" loading="lazy" src="https://ginger.elites888.com/ginger_portrait.jpg" width="682"/>
@@ -1070,10 +1085,10 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <a class="about-link" href="https://ginger.elites888.com" rel="noopener" target="_blank">認識更多 Ginger：個人品牌網站 ↗</a>
 </div>
 <div class="about-body">
-<span class="eyebrow">關於 Ginger</span>
-<h2 class="about-hook">我不是您團隊裡最會賣的人。<br/><span class="ph">但我知道，怎麼讓最會賣的那個人的方法，</span><span class="ph">傳給整個團隊。</span></h2>
+<h2 class="about-hook">我不是您團隊裡最會賣的人，<br/><span class="ph">但我知道怎麼問出他的心法，</span><span class="ph">複製給團隊。</span></h2>
 <p>我在企業經營層身邊擔任幕僚 20 多年，也負責過人才發展。我每天的工作，就是解決老闆說出口與沒說出口的問題。服務老闆，思考的高度與角度，往往比服務客戶需要考量更多面向。</p>
 <p>這些年，我看過很多中小企業靠一兩個人撐業績；升了最會銷售的人當主管，團隊卻開始掉業績；花錢上課，下課後一切回到原點。問題往往不在誰不夠努力，而是人才的價值認知、選人用人的依據、留人與傳承的制度，沒有一起到位。</p>
+<h3 class="creds-title">我能為您做的</h3>
 <div class="creds">
 <div class="cred"><h4>1. 理解老闆</h4><p>20 多年經營層幕僚與人才發展經驗。理解老闆在意的優先順序，也理解一個決定要在組織裡推動，需要顧到哪些人、哪些環節。</p></div>
 <div class="cred"><h4>2. 對人的洞察</h4><p>多年在組織裡觀察人、發展人，再加上 NLP 專業執行師（美國 ABNLP）的訓練：</p>
@@ -1088,7 +1103,7 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <div class="cred"><h4>5. 專業形象</h4><p>持有日本 KOZU Style 專業形象顧問認證，由 AICI 國際形象顧問協會（Association of Image Consultants International）日本分會前會長神津佳予子一對一授課。業務給客戶的第一印象，也是成交的一部分；從外在形象到內在認同，一起提升。</p></div>
 </div>
 <div class="about-book about-book-noimg">
-<p class="about-close">我把「資產型人才」的方法論系統化，寫成《把資歷變資產》。書裡不只寫給想讓經歷增值的工作者，也寫給想打造資產型人才團隊的經營者。<br/>每家公司最珍貴的資產，往往是那一兩位頂尖業務；但他們的成交心法，常常跟著人一起離開。<br/>我陪企業<strong>把這份卓越找出來、放大，傳給整個團隊。</strong></p>
+<p class="about-close">我把「資產型人才」的方法論系統化，寫成《把資歷變資產》。書裡不只寫給想讓經歷增值的工作者，也寫給想打造資產型人才團隊的經營者。<br/>每家公司最珍貴的資產，往往是那一兩位頂尖業務；但他們的成交心法，常常跟著人一起離開。<br/>我陪企業<strong>把這份卓越找出來、放大，複製到團隊。</strong></p>
 <a class="btn btn-outline-ink book-btn" href="https://book.elites888.com" rel="noopener" target="_blank">了解更多《把資歷變資產》 ↗</a>
 </div>
 </div>
@@ -1103,8 +1118,15 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <span class="eyebrow">離職與錯聘的代價</span>
 <h2>真正的成本，<span class="ph">不是工具多少錢。</span></h2>
 </div>
-<p class="section-lead">上面的循環，每轉一圈都有成本。以台灣的薪資與法定福利試算：</p>
+<p class="section-lead">業務錯聘與離職的循環，每轉一圈都有成本。以台灣的薪資與法定福利試算：</p>
 <h3 class="sub-h">走一位業務或業務主管，公司損失多少？</h3>
+<div class="answer">
+<div><span class="answer-who">業務</span><b>約年薪的 2.3 倍</b><span class="answer-amt">約 136 萬</span></div>
+<div><span class="answer-who">業務主管</span><b>約年薪的 3.2 倍</b><span class="answer-amt">約 252 萬</span></div>
+</div>
+<details class="howto">
+<summary>我想了解怎麼算出來的</summary>
+<div class="howto-body">
 <div class="assume">
 <p class="assume-title">範例假設</p>
 <ul>
@@ -1137,6 +1159,8 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 </ul>
 <p class="refs-note">以上為範例粗估，請依實際狀況調整。<br/>還沒算進去的：客戶跟著走、團隊跟著散。</p>
 </div>
+</div>
+</details>
 
 <div class="calc">
 <button type="button" class="btn btn-gold" id="calcToggle" aria-expanded="false" aria-controls="calcPanel">算算貴公司的</button>
