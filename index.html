@@ -695,7 +695,6 @@
   @media (max-width:700px){.stat-strip{grid-template-columns:minmax(0,1fr);}}
   .cycle{list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:22px; counter-reset:c;}
   .cycle-step{position:relative; background:var(--card); box-shadow:var(--shadow); padding:28px 24px 24px; display:flex; flex-direction:column;}
-  .cycle-step:not(:last-child)::after{content:"→"; position:absolute; right:-18px; top:44px; color:var(--gold-deep); font-size:20px; z-index:1;}
   .cycle-num{font-family:var(--serif); font-size:44px; font-weight:600; color:var(--gold-deep); line-height:1; margin-bottom:16px;}
   .cycle-num small{font-size:22px; margin-left:2px;}
   .cycle-step h3{font-size:18px; margin-bottom:10px;}
@@ -706,8 +705,8 @@
   .dilemma-kicker{font-size:14px; letter-spacing:0.1em; color:var(--gold,#C6A15B); margin-bottom:14px;}
   .dilemma-main{font-family:var(--serif); font-size:28px; line-height:1.6; margin-bottom:16px;}
   .dilemma-q{font-size:18px; color:var(--gold,#C6A15B); font-weight:600;}
-  @media (max-width:1000px){.cycle{grid-template-columns:repeat(2,minmax(0,1fr));} .cycle-step::after{display:none;}}
-  @media (max-width:600px){.cycle{grid-template-columns:minmax(0,1fr);} .cycle-step:not(:last-child)::after{content:"↓"; display:block; right:auto; left:50%; top:auto; bottom:-24px;} .dilemma-main{font-size:22px;}}
+  @media (max-width:1000px){.cycle{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media (max-width:600px){.cycle{grid-template-columns:minmax(0,1fr);} .dilemma-main{font-size:22px;}}
   .pillar{display:flex; flex-direction:column;}
   .pillar .fix{margin-top:18px; padding-top:16px; border-top:1px solid var(--line, #e5ded0);}
   .fix-label{display:block; font-size:13px; font-weight:700; color:var(--gold-deep); margin-bottom:8px; letter-spacing:0.02em;}
@@ -829,13 +828,20 @@
     .mishire-stats p{font-size:15px !important;}
 
     /* 用人循環的箭頭：手機版更明顯 */
-    .cycle{gap:52px !important;}
-    .cycle-step:not(:last-child)::after{content:"" !important; display:block !important; left:50% !important; right:auto !important; top:auto !important; bottom:-40px !important;
-      width:34px; height:34px; transform:translateX(-50%); border-radius:50%; background:#9C7A3C;
-      -webkit-mask:none; font-size:0 !important;}
-    .cycle-step:not(:last-child)::before{content:"↓"; position:absolute; left:50%; bottom:-36px; transform:translateX(-50%); color:#fff; font-size:22px; font-weight:700; line-height:26px; z-index:2;}
+    
+
   }
   @media (max-width:380px){h1{font-size:27px !important;}}
+  /* 用人循環箭頭：金色圓底＋粗白箭頭 */
+  .cycle-step:not(:last-child)::after{content:""; position:absolute; z-index:3; width:38px; height:38px; border-radius:50%;
+    background:#9C7A3C url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M5 12h13M12 5l7 7-7 7' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center/22px no-repeat; box-shadow:0 2px 8px rgba(0,0,0,.18);
+    right:-30px; top:46px;}
+  @media (max-width:1000px){ .cycle-step:not(:last-child)::after{display:none;} }
+  @media (max-width:600px){
+    .cycle{gap:56px !important;}
+    .cycle-step:not(:last-child)::after{display:block; right:auto; top:auto; left:50%; bottom:-48px; transform:translateX(-50%);
+      width:42px; height:42px; background-image:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M12 5v13M5 12l7 7 7-7' fill='none' stroke='white' stroke-width='3.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); background-size:24px;}
+  }
 </style>
 <a class="skip-link" href="#main">跳至主要內容</a>
 <style id="mobile-typo">
