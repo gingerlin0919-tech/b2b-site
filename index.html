@@ -789,6 +789,53 @@
     .iceberg-scroll img{width:760px !important; max-width:none !important;}
     .iceberg-hint{display:block; text-align:center; font-size:14px; color:#8a8073; margin-top:10px;}
   }
+  .assume,.refs{margin:18px 0 22px;}
+  .assume-title,.refs-title{font-weight:700; color:var(--ink); font-size:15px; margin-bottom:6px;}
+  .assume ul,.refs ul{margin:0 0 0 1.2em; padding:0; line-height:1.9; font-size:14.5px; color:var(--text,#555);}
+  .refs{font-size:14px;}
+  .refs ul{font-size:14px;}
+  .refs-note{font-size:14px; color:#8a8073; margin-top:8px; line-height:1.8;}
+  .iceberg-m{display:none;}
+  @media (max-width:600px){
+    /* 手機版：冰山改成文字版 */
+    .iceberg{display:none;}
+    .iceberg-m{display:block; margin:24px 0 36px; box-shadow:var(--shadow);}
+    .ice-top{background:#fff; padding:22px 20px 34px; border-bottom:2px solid #CF2030;}
+    .ice-bottom{position:relative; background:#22262C; padding:26px 20px 26px;}
+    .ice-shape{position:absolute; right:10px; top:-38px; width:118px; height:auto;}
+    .ice-tag{display:inline-block; background:#eee; color:#555; font-size:13px; padding:3px 10px; margin-bottom:8px;}
+    .ice-title{font-size:19px; font-weight:700; color:#222; margin-bottom:10px; font-family:var(--serif);}
+    .ice-title-d{color:#fff; max-width:calc(100% - 128px);}
+    .ice-sub{color:#e9c2c6; font-size:14px; margin-bottom:12px; max-width:calc(100% - 128px);}
+    .ice-list{list-style:none; margin:0; padding:0;}
+    .ice-list li{position:relative; padding-left:16px; line-height:2; font-size:15px;}
+    .ice-list li::before{content:""; position:absolute; left:0; top:.8em; width:8px; height:8px; border-radius:50%;}
+    .ice-list-2{display:grid; grid-template-columns:1fr 1fr; color:#333;}
+    .ice-list-2 li::before{background:#999;}
+    .ice-list-d{color:#fff; margin-top:10px;}
+    .ice-list-d li::before{background:#CF2030; box-shadow:0 0 0 2px rgba(255,255,255,.35);}
+
+    /* 手機版字級：標題放大 */
+    h1{font-size:31px !important;}
+    .section-head h2,section h2{font-size:25px !important; line-height:1.45 !important;}
+    .card h3,.quote-card h3,.pillar h3,.step h3{font-size:19px !important;}
+    .card p,.quote-card p,.pillar p{font-size:15px !important;}
+    table.cmp-research tbody th{font-size:18px !important; font-weight:700; line-height:1.5;}
+    table.cmp-research td{font-size:15px !important;}
+    table.cmp-cost tbody th{font-size:16px !important; white-space:normal !important; line-height:1.6;} table.cmp-cost td{font-size:16px !important;}
+    .sub-h{font-size:21px !important;}
+    .cycle-step h3,.cycle-key{font-size:19px !important;}
+    .cycle-step p:not(.cycle-key){font-size:15px !important;}
+    .mishire-stats p{font-size:15px !important;}
+
+    /* 用人循環的箭頭：手機版更明顯 */
+    .cycle{gap:52px !important;}
+    .cycle-step:not(:last-child)::after{content:"" !important; display:block !important; left:50% !important; right:auto !important; top:auto !important; bottom:-40px !important;
+      width:34px; height:34px; transform:translateX(-50%); border-radius:50%; background:#9C7A3C;
+      -webkit-mask:none; font-size:0 !important;}
+    .cycle-step:not(:last-child)::before{content:"↓"; position:absolute; left:50%; bottom:-36px; transform:translateX(-50%); color:#fff; font-size:22px; font-weight:700; line-height:26px; z-index:2;}
+  }
+  @media (max-width:380px){h1{font-size:27px !important;}}
 </style>
 <a class="skip-link" href="#main">跳至主要內容</a>
 <style id="mobile-typo">
@@ -939,7 +986,7 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <div class="card pillar"><span class="n">01</span><h3>人｜價值認知</h3><p>個人想要的，和公司要去的方向對不上，再多教育訓練，也有賞味期限。</p>
 <div class="fix"><span class="fix-label">解法｜NLP 從屬層級</span><p>從業務對自己角色與價值的定位開始，對齊個人與公司要去的方向。</p></div></div>
 <div class="card pillar"><span class="n">02</span><h3>工具｜數據相輔相成</h3><p>路遙知馬力，但人是會變的。一次評測只看到單點，持續追蹤，才看得見全貌。</p>
-<div class="fix"><span class="fix-label">解法｜行為科學 × 動態管理 × 內部 AI</span><p>持續追蹤每個人的變化，在離職之前看見訊號。</p></div></div>
+<div class="fix"><span class="fix-label">解法｜行為科學 × 動態管理 × 內部 AI</span><p>持續追蹤每個人的變化，在離職之前看見訊號，即時溝通或調整。</p></div></div>
 <div class="card pillar"><span class="n">03</span><h3>制度｜看得見未來，願意分享</h3><p>人會留下，是因為在這裡看得見自己的下一步；經驗會傳下去，是因為分享的人被看見、有回報。</p>
 <div class="fix"><span class="fix-label">解法｜NLP 複製卓越策略 × 升遷雙軌</span><p>把頂尖業務的判斷變成團隊學得會的能力；升遷不只一條路。</p></div></div>
 </div>
@@ -957,11 +1004,24 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <section class="section" id="why-science">
 <div class="wrap">
 <div class="section-head">
-<span class="eyebrow">Why Behavioral Science</span>
+<span class="eyebrow">為什麼用行為科學</span>
 <h2>為什麼要用<span class="ph">行為科學看人？</span></h2>
 </div>
 <p class="section-lead">人資系統記錄的是「發生了什麼」：出勤、薪資、考績、上過什麼課。但真正決定一位業務能不能成為資產的，在水面下：他適合賣還是適合帶？在壓力和拒絕下會怎麼做？主管明天該怎麼跟他談？這些，需要行為科學。</p>
-<figure class="iceberg"><div class="iceberg-scroll"><img src="iceberg.jpg" alt="冰山圖：人資系統記錄的是發生了什麼；水面下的為什麼與接下來怎麼做——適合賣還是適合帶、壓力和拒絕下會怎麼做、什麼能驅動他、主管一對一該怎麼談、頂尖業務的成功樣貌、離職前的壓力訊號——一般人資系統沒有記錄" loading="lazy" width="1119" height="516"/></div><figcaption class="iceberg-hint">← 左右滑動，看完整圖 →</figcaption></figure>
+<div class="iceberg-m" aria-hidden="true">
+<div class="ice-top">
+<span class="ice-tag">人資系統 HRIS</span>
+<p class="ice-title">記錄「發生了什麼」</p>
+<ul class="ice-list ice-list-2"><li>人事資料</li><li>出勤排班</li><li>薪資保險</li><li>招募流程</li><li>績效考核</li><li>上課紀錄</li></ul>
+</div>
+<div class="ice-bottom">
+<img class="ice-shape" src="iceberg_shape.png" alt="" width="216" height="220" loading="lazy"/>
+<p class="ice-title ice-title-d">「為什麼」與<br/>「接下來怎麼做」</p>
+<p class="ice-sub">一般人資系統沒有記錄的</p>
+<ul class="ice-list ice-list-d"><li>適合賣，還是適合帶？</li><li>壓力和拒絕下會怎麼做？</li><li>什麼能驅動他？</li><li>主管一對一該怎麼談？</li><li>頂尖業務的成功樣貌</li><li>離職前的壓力訊號</li></ul>
+</div>
+</div>
+<figure class="iceberg"><div class="iceberg-scroll"><img src="iceberg.jpg" alt="冰山圖：人資系統記錄的是發生了什麼；水面下的為什麼與接下來怎麼做——適合賣還是適合帶、壓力和拒絕下會怎麼做、什麼能驅動他、主管一對一該怎麼談、頂尖業務的成功樣貌、離職前的壓力訊號——一般人資系統沒有記錄" loading="lazy" width="1119" height="516"/></div></figure>
 <div class="grid-3">
 <div class="card"><h3>比履歷和面試更貼近工作情境</h3><p>整合數十年選才研究的分析發現：和工作直接相關、以「在工作中會怎麼做」為出發點的評量，預測力明顯較高。<a href="https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance-new-research-says-its-time-to-think-again/" rel="noopener" target="_blank">Sackett 等人 2022 ↗</a></p></div>
 <div class="card"><h3>以頂尖業務為標準</h3><p>用公司自己的頂尖業務當比對基準，招募與升遷都有依據。比對出來的，是貴公司自己的成功樣貌，而不是別人的標準。</p></div>
@@ -977,7 +1037,7 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <section class="section band-dark" id="esg">
 <div class="wrap">
 <div class="section-head">
-<span class="eyebrow">ESG｜Human Capital</span>
+<span class="eyebrow">ESG｜人力資本</span>
 <h2>人才管理，<span class="ph">也是 ESG 的一部分。</span></h2>
 </div>
 <p class="section-lead">全體上市櫃公司都要申報 ESG 資訊；金管會也要求分階段接軌 IFRS 永續揭露準則，揭露範圍將從氣候擴大到勞工健康與安全等議題。就算沒有上市，大客戶也會開始要求供應鏈提供 ESG 資料。人才決策有數據佐證，已是趨勢。</p>
@@ -1038,21 +1098,39 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <h2>真正的成本，<span class="ph">不是工具多少錢。</span></h2>
 </div>
 <p class="section-lead">上面的循環，每轉一圈都有成本。以台灣的薪資與法定福利試算：</p>
-<h3 class="sub-h">走一位業務或業務主管，公司損失多少？（台灣版試算）</h3>
+<h3 class="sub-h">走一位業務或業務主管，公司損失多少？</h3>
+<div class="assume">
+<p class="assume-title">範例假設</p>
+<ul>
+<li>業務月薪 5 萬、主管月薪 6.5 萬</li>
+<li>每位業務每月毛利 20 萬</li>
+<li>主管帶 6 位業務</li>
+<li>主管空缺時，團隊業績下滑 10%</li>
+<li>新主管上手期間，團隊業績下滑 5%</li>
+</ul>
+</div>
 <div class="cmp-wrap">
 <table class="cmp cmp-cost">
 <thead><tr><th>項目</th><th>業務</th><th>業務主管</th></tr></thead>
 <tbody>
-<tr><th scope="row">薪資福利：年薪 ×（1＋法定福利）＋車馬津貼</th><td data-label="業務" class="num">75 萬</td><td data-label="業務主管" class="num">98 萬</td></tr>
-<tr><th scope="row">招募與訓練：刊登、獵頭、面試時間、新人訓練</th><td data-label="業務" class="num">5 萬</td><td data-label="業務主管" class="num">26 萬</td></tr>
-<tr><th scope="row">空窗損失：職缺空著的那段時間少做的業績</th><td data-label="業務" class="num">26 萬</td><td data-label="業務主管" class="num">30 萬</td></tr>
-<tr><th scope="row">上手期損失：新人還沒上手少做的業績</th><td data-label="業務" class="num">30 萬</td><td data-label="業務主管" class="num">18 萬</td></tr>
+<tr><th scope="row">薪資福利：<span class="ph">年薪 ×（1＋法定福利）</span><span class="ph">＋車馬津貼</span></th><td data-label="業務" class="num">75 萬</td><td data-label="業務主管" class="num">98 萬</td></tr>
+<tr><th scope="row">招募與訓練：<span class="ph">刊登、獵頭、</span><span class="ph">面試時間、新人訓練</span></th><td data-label="業務" class="num">5 萬</td><td data-label="業務主管" class="num">26 萬</td></tr>
+<tr><th scope="row">空窗損失：<span class="ph">職缺空著的那段時間</span><span class="ph">少做的業績</span></th><td data-label="業務" class="num">26 萬</td><td data-label="業務主管" class="num">30 萬</td></tr>
+<tr><th scope="row">上手期損失：<span class="ph">新人還沒上手</span><span class="ph">少做的業績</span></th><td data-label="業務" class="num">30 萬</td><td data-label="業務主管" class="num">18 萬</td></tr>
 <tr><th scope="row">連鎖離職：主管走，多走一位部屬</th><td data-label="業務" class="num">—</td><td data-label="業務主管" class="num">80 萬</td></tr>
 <tr class="total"><th scope="row">合計</th><td data-label="業務" class="num">約 136 萬<br/>約年薪 2.3 倍</td><td data-label="業務主管" class="num">約 252 萬<br/>約年薪 3.2 倍</td></tr>
 </tbody>
 </table>
 </div>
-<p class="fine">還沒算進去的：客戶跟著走、團隊跟著散。年薪依 <a href="https://guide.104.com.tw/salary/cat/2005003000?type=catjobs" rel="noopener" target="_blank">104 薪資情報</a>中位數（業務月薪 5 萬、主管 6.5 萬，2026 年 11 月）；法定福利依 2026 年雇主負擔勞保、健保、勞退、職災（業務約 19%、主管約 18%）；空窗期依 <a href="https://blog.104.com.tw/?p=243679" rel="noopener" target="_blank">104《2026 年人資 FBI 報告》</a>（一般員工 40 天、主管 77 天）。範例假設：每位業務月毛利 20 萬；主管帶 6 人，空缺時團隊業績下滑 10%、上手期下滑 5%。以上為範例粗估，請依實際狀況調整。</p>
+<div class="refs">
+<p class="refs-title">參考資料</p>
+<ul>
+<li>年薪：<a href="https://guide.104.com.tw/salary/cat/2005003000?type=catjobs" rel="noopener" target="_blank">104 薪資情報</a>中位數（2026 年 11 月）</li>
+<li>法定福利：2026 年雇主負擔勞保、健保、勞退、職災<br/>業務約 19%、主管約 18%</li>
+<li>空窗期：<a href="https://blog.104.com.tw/?p=243679" rel="noopener" target="_blank">104《2026 年人資 FBI 報告》</a><br/>一般員工 40 天、主管 77 天</li>
+</ul>
+<p class="refs-note">以上為範例粗估，請依實際狀況調整。<br/>還沒算進去的：客戶跟著走、團隊跟著散。</p>
+</div>
 
 <div class="calc">
 <button type="button" class="btn btn-gold" id="calcToggle" aria-expanded="false" aria-controls="calcPanel">算算貴公司的</button>
@@ -1371,7 +1449,7 @@ p,li,td,th,figcaption,label,dd{text-wrap:pretty}
 <div class="foot-links">
 <a href="https://book.elites888.com" rel="noopener" target="_blank"><span class="phw"><span class="ph">《把資歷變資產》</span></span></a>
 <a href="/privacy.html"><span class="phw"><span class="ph">隱私權政策</span></span></a>
-<a href="mailto:gingerlin0919@gmail.com"><span class="phw"><span class="ph">亞洲聯繫窗口：</span>gingerlin0919@gmail.com</span></a>
+
 </div>
 </div>
 <p class="foot-note"><span class="phw">本頁內容用於人才管理教育與對談說明，評測結果僅供參考，不取代企業的<span class="ph">用人決策。</span></span></p>
