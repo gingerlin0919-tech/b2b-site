@@ -1,835 +1,1508 @@
-<!DOCTYPE html>
-<html lang="zh-TW" class="scroll-smooth">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>林逸蓁 Ginger Lin ｜ 職涯資產主理人 ｜ 暢銷商業新書《把資歷變資產》作者</title>
-    <meta name="description" content="林逸蓁 Ginger Lin 個人品牌旗艦首頁。暢銷商業新書《把資歷變資產》作者、BNI 新竹B區 創智 AI分會、20年高階經營層幕僚。獨家GAME職涯賽局法則™，協助企業打造自主運轉的資產型業務團隊，陪伴職場菁英建立長效複利職涯。">
-    
-    <!-- Google Fonts: Noto Serif TC & Noto Sans TC -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
-    <!-- Tailwind CSS CDN -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        obsidian: '#070709',
-                        surface: '#121218',
-                        surfaceElevated: '#1a1a24',
-                        gold: {
-                            light: '#F8E8A2',
-                            DEFAULT: '#E6CA75',
-                            dark: '#C29B38',
-                            deep: '#8A6A1E'
-                        },
-                        emeraldTone: '#0d2b22',
-                        emeraldBorder: '#1d4a3c'
-                    },
-                    fontFamily: {
-                        serif: ['"Microsoft JhengHei"', '"微軟正黑體"', '"PingFang TC"', 'sans-serif'],
-                        sans: ['"Microsoft JhengHei"', '"微軟正黑體"', '"PingFang TC"', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
+<!doctype html>
+<html lang="zh-Hant">
+<meta charset="utf-8"/>
+<title>Ginger Lin｜《把資歷變資產》作者｜20+ 年企業經營層幕僚</title>
+<meta content="業績不該只靠一兩個人撐。用行為科學看懂誰適合賣、誰適合帶，再把頂尖業務的成交心法，變成團隊都學得會的能力。Ginger Lin 結合行為科學、NLP 複製卓越與高單價成交策略，陪企業把一個人的業績，變成整個團隊的業績。" name="description"/>
+<meta content="Ginger Lin｜《把資歷變資產》作者｜20+ 年企業經營層幕僚" property="og:title"/>
+<meta content="業績，不該只靠一兩個人撐。用行為科學看懂頂尖業務的特質，把您的明星球員，複製成明星球隊。" property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500;600;700&amp;family=Noto+Sans+TC:wght@400;500;700&amp;family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&amp;display=swap" rel="stylesheet"/>
+<style>
+  :root{
+    --ink:#0F0F0F;
+    --ink-2:#1C1C1C;
+    --cream:#F2EBDD;
+    --gold:#C6A15B;
+    --gold-deep:#A8823F;
+    --text:#272B29;
+    --bg:#F7F4EE;
+    --card:#FFFFFF;
+    --line: rgba(198,161,91,0.38);
+    --line-soft: rgba(10,10,10,0.12);
+    --shadow: 0 20px 48px rgba(10,10,10,0.14);
+    --radius: 2px;
+    --maxw: 1120px;
+    --serif: "Noto Serif TC", "Noto Serif", serif;
+    --sans: "Noto Sans TC", "Noto Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+    --lat: "Cormorant Garamond", var(--serif);
+  }
 
-    <!-- Font Awesome Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  @media (prefers-reduced-motion: reduce){
+    html{scroll-behavior:auto;}
+    *{animation-duration:0.001ms !important; transition-duration:0.001ms !important;}
+  }
 
-    <style>
-        body {
-            background-color: #070709;
-            color: #E2E8F0;
-            font-family: "Microsoft JhengHei", "微軟正黑體", "PingFang TC", "Heiti TC", sans-serif;
-            overflow-x: hidden;
-        }
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--text);
+    font-family:var(--sans);
+    font-size:16px;
+    line-height:1.85;
+    -webkit-font-smoothing:antialiased;
+  }
 
-        /* 奢華香檳金漸層文字 */
-        .text-gold-gradient {
-            background: linear-gradient(135deg, #FFF1B8 0%, #E6CA75 45%, #C29B38 85%, #F8E8A2 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+  h1,h2,h3,h4{
+    font-family:var(--serif);
+    color:var(--ink);
+    margin:0;
+    text-wrap:balance;
+    font-weight:600;
+  }
 
-        /* 墨綠金專屬漸層 */
-        .emerald-gold-card {
-            background: linear-gradient(145deg, rgba(13, 43, 34, 0.85) 0%, rgba(10, 20, 18, 0.95) 100%);
-            border: 1px solid rgba(230, 202, 117, 0.3);
-            backdrop-filter: blur(12px);
-        }
+  p{margin:0;}
+  a{color:inherit;}
+  ul{margin:0; padding:0; list-style:none;}
+  img{max-width:100%; display:block;}
+  button{font-family:inherit;}
 
-        /* 奢華深色卡片微發光 */
-        .luxury-card {
-            background: linear-gradient(160deg, #161622 0%, #0d0d14 100%);
-            border: 1px solid rgba(230, 202, 117, 0.18);
-            box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.7);
-            transition: all 0.35s ease;
-        }
-        .luxury-card:hover {
-            border-color: rgba(230, 202, 117, 0.45);
-            box-shadow: 0 18px 40px -10px rgba(230, 202, 117, 0.12);
-            transform: translateY(-4px);
-        }
+  .wrap{
+    max-width:var(--maxw);
+    margin:0 auto;
+    padding:0 28px;
+  }
 
-        /* 金色光暈外框按鈕 */
-        .btn-gold-primary {
-            background: linear-gradient(135deg, #F8E8A2 0%, #E6CA75 50%, #C29B38 100%);
-            color: #070709;
-            font-weight: 700;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 20px rgba(230, 202, 117, 0.3);
-        }
-        .btn-gold-primary:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 8px 25px rgba(230, 202, 117, 0.5);
-            background: linear-gradient(135deg, #FFFFFF 0%, #F8E8A2 40%, #E6CA75 100%);
-        }
+  .eyebrow{
+    font-family:var(--lat);
+    font-style:italic;
+    font-weight:600;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    color:var(--gold-deep);
+    font-size:14px;
+  }
+  .step-kicker{
+    font-family:var(--lat);
+    font-style:italic;
+    font-weight:700;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--gold-deep);
+    font-size:13px;
+    margin-bottom:10px;
+  }
 
-        .btn-gold-secondary {
-            background: rgba(230, 202, 117, 0.08);
-            border: 1px solid rgba(230, 202, 117, 0.35);
-            color: #F8E8A2;
-            transition: all 0.3s ease;
-        }
-        .btn-gold-secondary:hover {
-            background: rgba(230, 202, 117, 0.18);
-            border-color: #E6CA75;
-            color: #FFFFFF;
-            transform: translateY(-2px);
-        }
+  .section{
+    padding:112px 0;
+    scroll-margin-top:84px;
+  }
+  @media (max-width:760px){
+    .section{padding:72px 0;}
+  }
 
-        /* 背景微光裝飾 */
-        .bg-glow-gold {
-            position: absolute;
-            width: 550px;
-            height: 550px;
-            background: radial-gradient(circle, rgba(230, 202, 117, 0.08) 0%, rgba(7, 7, 9, 0) 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
-        .bg-glow-emerald {
-            position: absolute;
-            width: 500px;
-            height: 500px;
-            background: radial-gradient(circle, rgba(13, 60, 45, 0.18) 0%, rgba(7, 7, 9, 0) 70%);
-            pointer-events: none;
-            z-index: 0;
-        }
-    </style>
-<style id="mobile-typo">
-  .nw{display:inline-block;white-space:nowrap;}
-  @media (max-width:640px){
-    h1,h2,h3,h4,button,a,label,summary{word-break:keep-all;overflow-wrap:anywhere;}
-    h1,h2,h3,h4{text-wrap:balance;}
-    p,li{text-wrap:pretty;}
-    .text-xs{font-size:13px !important;line-height:1.75 !important;}
-    .text-sm{line-height:1.8 !important;}
-    p{line-height:1.85;}
-    p,li{word-break:normal;}
+  .section-head{
+    max-width:760px;
+    margin:0 0 56px;
+  }
+  .section-head .eyebrow{display:block; margin-bottom:18px;}
+  .section-head h2{font-size:clamp(26px,3.6vw,38px); line-height:1.5;}
+  .rule{
+    width:56px;height:1px;background:var(--gold);
+    margin:22px 0;
+    border:none;
+  }
+
+  /* ---------- Nav ---------- */
+  header.nav{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    background:transparent;
+    transition:background .35s ease, box-shadow .35s ease, backdrop-filter .35s ease;
+  }
+  header.nav.scrolled{
+    background:rgba(10,10,10,0.85);
+    backdrop-filter:blur(10px);
+    -webkit-backdrop-filter:blur(10px);
+    box-shadow:0 6px 24px rgba(0,0,0,0.14);
+  }
+  .nav-inner{
+    max-width:var(--maxw); margin:0 auto; padding:20px 28px;
+    display:flex; align-items:center; justify-content:flex-end;
+  }
+  .logo{
+    font-family:var(--serif); font-weight:600; font-size:17px;
+    color:var(--cream); letter-spacing:0.02em;
+    text-decoration:none; white-space:nowrap;
+  }
+  .nav-links{
+    display:flex; align-items:center; gap:34px;
+  }
+  .nav-links a{
+    color:var(--cream); text-decoration:none; font-size:14.5px;
+    opacity:0.88; position:relative;
+  }
+  .nav-links a:hover{opacity:1;}
+  .btn{
+    display:inline-flex; align-items:center; justify-content:center;
+    font-family:var(--sans); font-weight:700; font-size:14.5px;
+    letter-spacing:0.02em;
+    padding:13px 28px;
+    border:1px solid transparent;
+    text-decoration:none;
+    cursor:pointer;
+    border-radius:var(--radius);
+    transition:transform .2s ease, box-shadow .2s ease, background .2s ease, color .2s ease, border-color .2s ease;
+  }
+  .btn-gold{
+    background:var(--gold); color:var(--ink);
+  }
+  .btn-gold:hover{background:#d4b073; box-shadow:0 10px 24px rgba(198,161,91,0.35);}
+  .btn-outline{
+    background:transparent; color:var(--cream); border-color:rgba(242,235,221,0.5);
+  }
+  .btn-outline:hover{border-color:var(--cream);}
+  .btn-outline-ink{
+    background:transparent; color:var(--ink); border-color:var(--ink);
+  }
+  .btn-outline-ink:hover{background:var(--ink); color:var(--cream);}
+  .nav-cta{padding:11px 22px; font-size:13.5px;}
+
+  .nav-toggle{
+    display:none; background:none; border:none; color:var(--cream);
+    width:32px; height:24px; position:relative; cursor:pointer; padding:0;
+  }
+  .nav-toggle span, .nav-toggle::before, .nav-toggle::after{
+    content:""; position:absolute; left:0; right:0; height:2px; background:var(--cream);
+    transition:transform .25s ease, opacity .25s ease;
+  }
+  .nav-toggle::before{top:2px;}
+  .nav-toggle span{top:11px;}
+  .nav-toggle::after{top:20px;}
+  .nav-toggle.open::before{transform:translateY(9px) rotate(45deg);}
+  .nav-toggle.open::after{transform:translateY(-9px) rotate(-45deg);}
+  .nav-toggle.open span{opacity:0;}
+
+  @media (max-width:900px){
+    .nav-links{
+      position:fixed; inset:0 0 0 auto; top:0; height:100vh; width:78vw; max-width:320px;
+      background:var(--ink); flex-direction:column; align-items:flex-start;
+      padding:96px 32px 40px; gap:26px;
+      transform:translateX(100%); transition:transform .35s ease;
+    }
+    .nav-links.open{transform:translateX(0);}
+    .nav-links a{font-size:17px; opacity:1;}
+    .nav-cta{margin-top:12px;}
+    .nav-toggle{display:block;}
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    background:
+      radial-gradient(ellipse at 15% -10%, rgba(198,161,91,0.16), transparent 45%),
+      linear-gradient(180deg, var(--ink) 0%, var(--ink-2) 100%);
+    color:var(--cream);
+    padding:180px 0 120px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::after{
+    content:"";
+    position:absolute; right:-8%; top:12%; width:560px; height:560px;
+    background:var(--hero-lines);
+    opacity:0.5;
+    pointer-events:none;
+  }
+  @media (max-width:900px){.hero::after{display:none;}}
+  .hero-inner{max-width:760px; position:relative; z-index:1;}
+  .hero h1{
+    color:var(--cream);
+    font-size:clamp(32px,5vw,52px);
+    line-height:1.42;
+    margin:22px 0 26px;
+  }
+  .hero .lead{
+    font-size:17px; line-height:1.95; color:rgba(242,235,221,0.86);
+    max-width:600px; margin-bottom:34px;
+  }
+  .hero .prompt{
+    font-size:15.5px; color:var(--gold); font-weight:700; margin-bottom:20px;
+  }
+  .hero-cards{
+    display:grid; grid-template-columns:repeat(3,1fr); gap:14px;
+    margin-bottom:40px;
+  }
+  @media (max-width:700px){.hero-cards{grid-template-columns:1fr;}}
+  .hero-card{
+    border:1px solid rgba(242,235,221,0.22);
+    background:rgba(242,235,221,0.05);
+    padding:18px 18px 20px;
+    font-size:14.5px; line-height:1.7; color:var(--cream);
+  }
+  .hero-card .n{
+    font-family:var(--lat); color:var(--gold); font-size:22px; font-style:italic; font-weight:600;
+    display:block; margin-bottom:8px;
+  }
+  .hero-actions{display:flex; gap:16px; flex-wrap:wrap; margin-bottom:22px;}
+  @media (max-width:700px){
+    .hero-actions{flex-direction:column; align-items:stretch;}
+    .hero-actions .btn{width:100%; text-align:center;}
+  }
+  .hero-trust{font-size:13.5px; color:rgba(242,235,221,0.62); line-height:1.9;}
+
+  /* ---------- Cards / grids ---------- */
+  .grid-3{display:grid; grid-template-columns:repeat(3,1fr); gap:26px;}
+  .grid-2{display:grid; grid-template-columns:repeat(2,1fr); gap:26px;}
+  @media (max-width:860px){.grid-3{grid-template-columns:1fr;} .grid-2{grid-template-columns:1fr;}}
+
+  .card{
+    background:var(--card);
+    border:1px solid var(--line-soft);
+    padding:32px 28px;
+    box-shadow:var(--shadow);
+  }
+  .card .n{
+    font-family:var(--lat); font-style:italic; font-weight:600; color:var(--gold-deep);
+    font-size:20px; display:block; margin-bottom:14px;
+  }
+  .card h3{font-size:18px; color:var(--ink); line-height:1.55; margin-bottom:10px;}
+  .card p{font-size:14.5px; color:#4a5049; line-height:1.85;}
+
+  .pullquote{
+    font-family:var(--serif); font-size:clamp(20px,2.6vw,26px); color:var(--ink);
+    line-height:1.75; max-width:820px; margin:56px 0 0; padding-top:32px; border-top:1px solid var(--line);
+  }
+
+  /* ---------- Comparison table ---------- */
+  .cmp-wrap{overflow-x:auto; -webkit-overflow-scrolling:touch;}
+  table.cmp{
+    width:100%; border-collapse:collapse; min-width:760px;
+    background:var(--card); box-shadow:var(--shadow);
+  }
+  table.cmp th, table.cmp td{
+    text-align:left; padding:18px 20px; font-size:14.5px; line-height:1.75;
+    border-bottom:1px solid var(--line-soft); vertical-align:top;
+  }
+  table.cmp thead th{
+    font-family:var(--serif); font-weight:600; color:var(--cream); background:var(--ink);
+    font-size:14px;
+  }
+  table.cmp tbody th{
+    font-weight:700; color:var(--ink); background:rgba(198,161,91,0.06); white-space:nowrap;
+  }
+  table.cmp tbody tr:last-child td, table.cmp tbody tr:last-child th{border-bottom:none;}
+
+  @media (max-width:760px){
+    table.cmp thead{display:none;}
+    table.cmp, table.cmp tbody, table.cmp tr, table.cmp td, table.cmp th{display:block; width:100%; min-width:0;}
+    table.cmp{box-shadow:none; background:none;}
+    table.cmp tr{background:var(--card); box-shadow:var(--shadow); margin-bottom:16px; padding:6px 4px;}
+    table.cmp tbody th{background:none; border-bottom:1px solid var(--line);}
+    table.cmp td{border-bottom:none; padding:12px 20px;}
+    table.cmp td::before{
+      content:attr(data-label); display:block; font-family:var(--lat); font-style:italic;
+      color:var(--gold-deep); font-weight:600; font-size:12.5px; letter-spacing:0.04em; margin-bottom:4px;
+    }
+  }
+
+  .source-link{
+    display:inline-flex; align-items:center; gap:8px; margin-top:18px;
+    font-size:13.5px; color:var(--ink-2); text-decoration:none; border-bottom:1px solid var(--gold);
+    padding-bottom:2px;
+  }
+
+  /* ---------- Section 4: contrast lists ---------- */
+  .contrast{
+    display:grid; grid-template-columns:1fr 1fr; gap:0;
+    border:1px solid var(--line-soft); background:var(--card); box-shadow:var(--shadow);
+  }
+  @media (max-width:760px){.contrast{grid-template-columns:1fr;}}
+  .contrast-col{padding:36px 32px;}
+  .contrast-col.old{border-right:1px solid var(--line-soft); background:#FBF9F5;}
+  @media (max-width:760px){.contrast-col.old{border-right:none; border-bottom:1px solid var(--line-soft);}}
+  .contrast-col h4{
+    font-family:var(--lat); font-style:italic; font-size:14px; letter-spacing:0.06em;
+    text-transform:uppercase; color:#8a8073; margin-bottom:20px; font-weight:600;
+  }
+  .contrast-col.new h4{color:var(--gold-deep);}
+  .contrast-col li{
+    font-size:15px; line-height:1.8; padding:12px 0; border-top:1px solid var(--line-soft);
+  }
+  .contrast-col li:first-of-type{border-top:none;}
+  .contrast-col.old li{color:#6b6459;}
+  .contrast-col.new li{color:var(--text); font-weight:500;}
+
+  /* ---------- Section 5: three-layer diagram ---------- */
+  .layers{max-width:820px; margin:0 auto 56px; position:relative;}
+  .layer{
+    display:grid; grid-template-columns:64px 1fr; gap:24px;
+    padding:26px 0; position:relative;
+  }
+  .layer:not(:last-child)::after{
+    content:""; position:absolute; left:31px; top:64px; bottom:-18px; width:1px;
+    background:var(--line);
+  }
+  .layer .dot{
+    width:64px; height:64px; border:1px solid var(--gold); border-radius:50%;
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--lat); font-style:italic; font-weight:600; color:var(--gold-deep); font-size:15px;
+    background:var(--bg); flex-shrink:0;
+  }
+  .layer h4{font-family:var(--serif); font-size:18px; color:var(--ink); margin-bottom:8px;}
+  .layer p{font-size:14.5px; color:#4a5049; line-height:1.85;}
+
+  .qlist{
+    max-width:820px; margin:0 auto; display:grid; gap:12px;
+  }
+  .qlist li{
+    display:flex; gap:14px; font-size:15px; padding:16px 20px;
+    background:var(--card); border-left:2px solid var(--gold); box-shadow:var(--shadow);
+  }
+
+  .dash-list{display:grid; gap:9px;}
+  .dash-list li{padding-left:18px; position:relative; font-size:14px; line-height:1.75;}
+  .dash-list li::before{content:"–"; position:absolute; left:0; color:var(--gold-deep); font-weight:700;}
+
+  /* ---------- Dark band ---------- */
+  .band-dark{background:var(--ink); color:var(--cream);}
+  .band-dark .section-head h2{color:var(--cream);}
+  .band-dark .card{background:rgba(242,235,221,0.06); border-color:rgba(242,235,221,0.14); box-shadow:none;}
+  .band-dark .card h3{color:var(--cream);}
+  .band-dark .card p{color:rgba(242,235,221,0.72);}
+  .band-dark .card .n{color:var(--gold);}
+  .band-dark .eyebrow{color:var(--gold);}
+  .band-dark p, .band-dark li{color:rgba(242,235,221,0.82);}
+
+  /* ---------- Two-column suitability ---------- */
+  .suit{display:grid; grid-template-columns:1fr 1fr; gap:26px;}
+  @media (max-width:760px){.suit{grid-template-columns:1fr;}}
+  .suit-col{padding:34px 30px; border-top:3px solid var(--gold); background:var(--card); box-shadow:var(--shadow);}
+  .suit-col.no{border-top-color:#9c9384;}
+  .suit-col h4{font-family:var(--serif); font-size:19px; margin-bottom:20px; color:var(--ink);}
+  .suit-col li{
+    font-size:14.5px; line-height:1.75; padding:11px 0 11px 26px; position:relative;
+    border-top:1px solid var(--line-soft);
+  }
+  .suit-col li:first-child{border-top:none;}
+  .suit-col li::before{
+    position:absolute; left:0; top:11px; font-family:var(--lat); font-weight:700;
+  }
+  .suit-col.yes li::before{content:"✓"; color:var(--gold-deep);}
+  .suit-col.no li::before{content:"–"; color:#9c9384;}
+
+  /* ---------- Science callouts ---------- */
+  .sci-basics{display:grid; grid-template-columns:1fr 1fr; gap:26px; margin-bottom:40px;}
+  @media (max-width:760px){.sci-basics{grid-template-columns:1fr;}}
+  .sci-basic{padding:28px 30px; background:var(--card); box-shadow:var(--shadow);}
+  .sci-basic h4{font-family:var(--serif); font-size:18px; color:var(--ink); margin-bottom:10px;}
+  .sci-basic p{font-size:14.5px; color:#4a5049;}
+
+  .callout{
+    border:1px solid var(--line); background:rgba(198,161,91,0.06);
+    padding:24px 28px; font-size:14px; line-height:1.85; color:#463f2e;
+    margin:22px 0;
+  }
+  .callout.warn{
+    border-color:var(--ink); background:rgba(10,10,10,0.05); color:var(--text);
+  }
+  .callout strong{color:var(--ink);}
+
+  /* ---------- Process timeline ---------- */
+  .timeline{max-width:860px; margin:0 auto; display:grid; gap:0;}
+  .tl-step{
+    display:grid; grid-template-columns:96px 1fr; gap:26px; padding:34px 0;
+    border-top:1px solid var(--line-soft);
+  }
+  .tl-step:first-child{border-top:none;}
+  .tl-num{
+    font-family:var(--lat); font-style:italic; font-weight:600; color:var(--gold-deep); font-size:34px; line-height:1;
+  }
+  .tl-step h4{font-family:var(--serif); font-size:19px; color:var(--ink); margin-bottom:10px;}
+  .tl-step p{font-size:14.5px; color:#4a5049; margin-bottom:10px;}
+  .tl-step ul{margin-top:10px; display:grid; gap:6px;}
+  .tl-step ul li{font-size:14px; color:#4a5049; padding-left:16px; position:relative;}
+  .tl-step ul li::before{content:"·"; position:absolute; left:0; color:var(--gold-deep); font-weight:700;}
+
+  /* ---------- FAQ ---------- */
+  .faq{max-width:820px; margin:0 auto;}
+  .faq details{
+    border-bottom:1px solid var(--line-soft); padding:22px 0;
+  }
+  .faq details:first-child{border-top:1px solid var(--line-soft);}
+  .faq summary{
+    cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center;
+    gap:20px; font-family:var(--serif); font-size:16.5px; color:var(--ink); font-weight:600;
+  }
+  .faq summary::-webkit-details-marker{display:none;}
+  .faq summary .plus{
+    flex-shrink:0; width:26px; height:26px; border:1px solid var(--gold); border-radius:50%;
+    position:relative;
+  }
+  .faq summary .plus::before, .faq summary .plus::after{
+    content:""; position:absolute; background:var(--gold-deep); top:50%; left:50%;
+    transform:translate(-50%,-50%);
+  }
+  .faq summary .plus::before{width:10px; height:1.5px;}
+  .faq summary .plus::after{width:1.5px; height:10px; transition:transform .25s ease;}
+  .faq details[open] summary .plus::after{transform:translate(-50%,-50%) scaleY(0);}
+  .faq .faq-body{
+    font-size:14.5px; line-height:1.9; color:#4a5049; padding:16px 46px 0 0;
+  }
+  .faq summary:focus-visible{outline:2px solid var(--gold-deep); outline-offset:4px;}
+
+  /* ---------- Final CTA ---------- */
+  .cta-final{
+    background:linear-gradient(180deg, var(--ink) 0%, var(--ink-2) 100%);
+    color:var(--cream); text-align:left; padding:130px 0;
+  }
+  .cta-final h2{color:var(--cream); font-size:clamp(26px,4vw,38px); max-width:720px; margin-bottom:22px;}
+  .cta-final .lead{font-size:16px; color:rgba(242,235,221,0.82); max-width:600px; margin-bottom:34px;}
+  .cta-final .below{font-size:13.5px; color:rgba(242,235,221,0.62); margin:18px 0 30px;}
+  .cta-final .trust{font-size:13px; color:rgba(242,235,221,0.5); max-width:600px; padding-top:22px; border-top:1px solid rgba(242,235,221,0.18);}
+
+  /* ---------- Booking form ---------- */
+  .form-card{
+    background:var(--card); box-shadow:var(--shadow); padding:44px;
+    display:grid; grid-template-columns:1fr 1fr; gap:22px;
+  }
+  @media (max-width:760px){.form-card{grid-template-columns:1fr; padding:28px 22px;}}
+  .field{display:flex; flex-direction:column; gap:8px;}
+  .field.full{grid-column:1 / -1;}
+  .field label{font-size:13.5px; font-weight:700; color:var(--ink);}
+  .field .opt{font-weight:400; color:#8a8073;}
+  .field input, .field select, .field textarea{
+    font-family:var(--sans); font-size:14.5px; padding:12px 14px; border:1px solid #d9d2c2;
+    background:#FCFAF5; color:var(--text); border-radius:var(--radius);
+  }
+  .field input:focus, .field select:focus, .field textarea:focus{
+    outline:none; border-color:var(--gold-deep); box-shadow:0 0 0 3px rgba(198,161,91,0.18);
+  }
+  .field textarea{resize:vertical; min-height:96px;}
+  .time-slots{display:grid; gap:10px;}
+  .consent{
+    grid-column:1/-1; display:flex; gap:12px; align-items:flex-start; font-size:13.5px;
+    color:#4a5049; line-height:1.7; padding-top:6px;
+  }
+  .consent input{margin-top:3px;}
+  .consent a{color:var(--ink-2); text-decoration:underline;}
+  .form-msg{
+    grid-column:1/-1; font-size:14px; padding:14px 18px; border-left:2px solid var(--gold-deep);
+    background:rgba(198,161,91,0.08); display:none;
+  }
+  .form-msg.show{display:block;}
+  .form-submit{grid-column:1/-1; display:flex; justify-content:flex-start;}
+
+  /* ---------- Illustration placeholder ---------- */
+  .art-block{
+    border:1px dashed var(--line); background:repeating-linear-gradient(135deg, rgba(10,10,10,0.04) 0 12px, transparent 12px 24px);
+    display:flex; align-items:center; justify-content:center; text-align:center; padding:48px 24px;
+    min-height:220px; margin:44px 0;
+  }
+  .art-block .label{
+    font-size:13px; color:var(--ink-2); max-width:340px; line-height:1.8;
+  }
+  .art-block .label b{display:block; font-family:var(--serif); font-size:15px; margin-bottom:6px; color:var(--ink);}
+
+  /* ---------- Footer ---------- */
+  footer{background:#0A0A0A; color:rgba(242,235,221,0.72); padding:64px 0 110px;}
+  footer .foot-top{display:flex; justify-content:space-between; gap:32px; flex-wrap:wrap; padding-bottom:36px; border-bottom:1px solid rgba(242,235,221,0.12);}
+  footer .foot-name{font-family:var(--serif); color:var(--cream); font-size:18px; margin-bottom:8px;}
+  footer .foot-role{font-size:13.5px; color:rgba(242,235,221,0.6);}
+  .foot-oad{display:flex; align-items:center; gap:12px; margin-top:18px;}
+  .foot-oad-label{font-size:11.5px; color:rgba(242,235,221,0.48); text-transform:uppercase; letter-spacing:0.08em;}
+  .foot-oad-logo{height:26px; width:auto; background:#F2EBDD; padding:6px 10px; border-radius:3px;}
+  footer .foot-links{display:flex; gap:26px; flex-wrap:wrap; font-size:13.5px;}
+  footer .foot-links a{text-decoration:none; color:rgba(242,235,221,0.75);}
+  footer .foot-links a:hover{color:var(--gold);}
+  footer .foot-note{font-size:12.5px; line-height:1.9; color:rgba(242,235,221,0.42); padding-top:28px; max-width:680px;}
+
+  /* ---------- Mobile sticky CTA ---------- */
+  .sticky-cta{
+    display:none; position:fixed; left:0; right:0; bottom:0; z-index:90;
+    background:rgba(10,10,10,0.96); backdrop-filter:blur(8px);
+    padding:12px 18px; padding-bottom:calc(12px + env(safe-area-inset-bottom));
+    box-shadow:0 -8px 24px rgba(0,0,0,0.18);
+  }
+  .sticky-cta .btn{width:100%;}
+  @media (max-width:760px){
+    .sticky-cta{display:block;}
+    body{padding-bottom:74px;}
+  }
+
+  .skip-link{
+    position:absolute; left:-999px; top:0; background:var(--gold); color:var(--ink);
+    padding:10px 16px; z-index:200; font-size:14px;
+  }
+  .skip-link:focus{left:12px; top:12px;}
+
+  :focus-visible{outline:2px solid var(--gold-deep); outline-offset:3px;}
+
+  /* ---------- 2026-11 改版新增 ---------- */
+  .hero-slogan{
+    font-family:var(--serif); font-size:clamp(18px,2.3vw,23px); line-height:1.75;
+    color:var(--gold); margin:0 0 22px; max-width:720px; font-weight:600;
+  }
+  .section-lead{max-width:760px; font-size:16px; color:#4a5049; line-height:1.95; margin:-24px 0 40px;}
+  .sub-h{font-size:20px; margin:56px 0 22px;}
+  .fine{font-size:13px; color:#6b6459; margin-top:18px; line-height:1.8;}
+  .fine a,.fine-in a{color:var(--gold-deep);}
+  .muted{color:#6b6459;}
+  .grid-4{display:grid; grid-template-columns:repeat(4,1fr); gap:22px;}
+  @media (max-width:1000px){.grid-4{grid-template-columns:repeat(2,1fr);}}
+  @media (max-width:600px){.grid-4{grid-template-columns:1fr;}}
+  .quote-card h3{font-size:17.5px;}
+  .hr-note{
+    margin-top:32px; padding:18px 22px; border-left:3px solid var(--gold);
+    background:rgba(198,161,91,0.08); font-size:15px; max-width:820px;
+  }
+  .cite{display:inline-block; margin-left:6px; font-size:12.5px; color:var(--gold-deep); text-decoration:none; border-bottom:1px solid var(--line); white-space:nowrap;}
+  .cite:hover{border-bottom-color:var(--gold-deep);}
+  table.cmp.cmp-research tbody th{white-space:normal; min-width:150px;}
+  table.cmp.cmp-ai tbody th{white-space:normal; width:34%; font-weight:500; color:var(--text); background:rgba(198,161,91,0.05);}
+  table.cmp .basis{display:block; margin-top:8px; font-size:12.5px; color:var(--gold-deep);}
+  table.cmp td.num{font-family:var(--serif); font-weight:600; color:var(--ink); white-space:nowrap;}
+  table.cmp tr.total th, table.cmp tr.total td{background:rgba(198,161,91,0.12); font-weight:700;}
+  @media (max-width:760px){
+    table.cmp tr.total td[data-label="算法"]{display:none;}
+    table.cmp.cmp-ai tbody th{width:100%;}
+  }
+
+  .steps{display:grid; grid-template-columns:repeat(3,1fr); gap:24px; counter-reset:none;}
+  @media (max-width:900px){.steps{grid-template-columns:1fr;}}
+  .step{background:var(--card); border:1px solid var(--line-soft); border-top:3px solid var(--gold); padding:30px 26px; box-shadow:var(--shadow);}
+  .step h3{font-size:19px; margin-bottom:12px;}
+  .step p{font-size:14.5px; color:#4a5049; line-height:1.9;}
+  .step p + p{margin-top:12px;}
+  .callout.human{margin-top:36px;}
+  .callout p{margin-top:8px;}
+  .readers{margin-top:40px;}
+  .reader{border-top:1px solid var(--line); padding-top:18px;}
+  .reader .who{font-family:var(--serif); font-weight:700; color:var(--gold-deep); font-size:17px; display:block; margin-bottom:8px;}
+  .reader p{font-size:14.5px; color:#4a5049; line-height:1.85;}
+
+  .about{display:grid; grid-template-columns:320px 1fr; gap:56px; align-items:start;}
+  @media (max-width:900px){.about{grid-template-columns:1fr; gap:32px;}}
+  .about-photo img{width:100%; height:auto; aspect-ratio:2/3; object-fit:cover; box-shadow:var(--shadow);}
+  @media (max-width:900px){.about-photo img{max-width:300px;}}
+  .about-name{font-family:var(--serif); font-weight:700; color:var(--ink); font-size:19px; margin-top:18px;}
+  .about-role{font-size:13.5px; color:#6b6459; margin-top:4px;}
+  .about-body .eyebrow{display:block; margin-bottom:14px;}
+  .about-hook{font-size:clamp(22px,2.8vw,30px); line-height:1.55; margin-bottom:24px;}
+  .about-body > p{font-size:15.5px; line-height:1.95; margin-bottom:14px;}
+  .creds{margin:30px 0; border-top:1px solid var(--line);}
+  .cred{padding:20px 0; border-bottom:1px solid var(--line-soft);}
+  .cred h4{font-size:17px; margin-bottom:8px;}
+  .cred p, .cred li{font-size:14.5px; color:#4a5049; line-height:1.85;}
+  .cred .dash-list{margin:10px 0;}
+  .fine-in{font-size:13px !important; color:#6b6459 !important; margin-top:10px; padding:12px 14px; background:rgba(198,161,91,0.07);}
+  .about-close{font-family:var(--serif); font-size:17px !important; color:var(--ink); line-height:1.9 !important;}
+
+  .stat-row{display:grid; grid-template-columns:repeat(3,1fr); gap:22px;}
+  @media (max-width:760px){.stat-row{grid-template-columns:1fr;}}
+  .stat{background:var(--card); border:1px solid var(--line-soft); padding:26px 24px; box-shadow:var(--shadow);}
+  .stat-num{font-family:var(--lat); font-weight:600; font-size:48px; line-height:1; color:var(--gold-deep); display:block; margin-bottom:10px;}
+  .stat-num small{font-family:var(--serif); font-size:18px; margin-left:4px;}
+  .stat p{font-size:14.5px; color:#4a5049;}
+  .calc-box{
+    margin-top:40px; padding:30px 32px; background:var(--ink); color:var(--cream);
+    display:flex; justify-content:space-between; align-items:center; gap:28px; flex-wrap:wrap;
+  }
+  .calc-box h3{color:var(--cream); font-size:20px; margin-bottom:6px;}
+  .calc-box .muted{color:rgba(242,235,221,0.7); font-size:14px;}
+  .calc-steps{margin:12px 0 0 20px; padding:0; list-style:decimal; font-size:14px; color:rgba(242,235,221,0.88); line-height:1.9;}
+  .calc-box .btn{flex-shrink:0;}
+  @media (max-width:700px){.calc-box{padding:24px 20px;} .calc-box .btn{width:100%;}}
+
+  .roi{display:grid; grid-template-columns:1.05fr 1fr; gap:28px;}
+  @media (max-width:900px){.roi{grid-template-columns:1fr;}}
+  .roi-table{border:1px solid rgba(242,235,221,0.22); background:rgba(242,235,221,0.05); padding:26px 26px 18px;}
+  .roi-title{font-family:var(--serif); color:var(--cream); font-size:16px; margin-bottom:16px;}
+  .roi-grid{display:grid; grid-template-columns:1.3fr 1fr 1fr; row-gap:0;}
+  .roi-grid span{padding:14px 6px; border-bottom:1px solid rgba(242,235,221,0.14); font-size:14.5px;}
+  .roi-h{font-family:var(--lat); font-style:italic; letter-spacing:0.08em; color:var(--gold); font-size:14px !important;}
+  .roi-k{color:rgba(242,235,221,0.8);}
+  .roi-b{color:rgba(242,235,221,0.55); font-family:var(--serif); font-size:17px !important;}
+  .roi-a{color:var(--gold); font-family:var(--serif); font-weight:700; font-size:18px !important;}
+  .roi-cards{display:grid; gap:14px;}
+  .roi-card{border:1px solid rgba(242,235,221,0.22); background:rgba(242,235,221,0.05); padding:18px 22px;}
+  .roi-label{font-size:13.5px; color:rgba(242,235,221,0.7);}
+  .roi-big{font-family:var(--serif); font-weight:700; color:var(--gold); font-size:21px; margin:4px 0 6px;}
+  .roi-card p:last-child{font-size:13.5px; color:rgba(242,235,221,0.75); line-height:1.75;}
+  .roi-note{margin-top:24px; font-size:13px; color:rgba(242,235,221,0.6); max-width:820px;}
+
+  .founding{padding:80px 0;}
+  .founding-box{border:1px solid var(--gold); padding:44px 40px; text-align:center; background:linear-gradient(180deg,#fff, #FBF9F5);}
+  .founding-box .eyebrow{display:block; margin-bottom:12px;}
+  .founding-box h2{font-size:clamp(24px,3vw,32px); margin-bottom:16px;}
+  .founding-box p{max-width:640px; margin:0 auto 26px; font-size:15.5px; color:#4a5049;}
+  @media (max-width:700px){.founding-box{padding:32px 22px;}}
+
+  .foot-contact{display:flex; gap:18px; flex-wrap:wrap; margin-top:14px;}
+  .foot-contact a{color:var(--gold); text-decoration:none; font-size:14px; border-bottom:1px solid rgba(198,161,91,0.4);}
+
+
+  /* 修正：格狀欄位被內容撐寬造成橫向捲動 */
+  .grid-3{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .grid-2{grid-template-columns:repeat(2,minmax(0,1fr));}
+  .grid-4{grid-template-columns:repeat(4,minmax(0,1fr));}
+  .steps{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .stat-row{grid-template-columns:repeat(3,minmax(0,1fr));}
+  .roi{grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);}
+  .about{grid-template-columns:320px minmax(0,1fr);}
+  @media (max-width:1000px){.grid-4{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media (max-width:900px){.steps,.roi,.about{grid-template-columns:minmax(0,1fr);}}
+  @media (max-width:860px){.grid-3,.grid-2{grid-template-columns:minmax(0,1fr);}}
+  @media (max-width:760px){.stat-row{grid-template-columns:minmax(0,1fr);}}
+  @media (max-width:600px){.grid-4{grid-template-columns:minmax(0,1fr);}}
+  .grid-3>*,.grid-2>*,.grid-4>*,.steps>*,.stat-row>*,.roi>*,.about>*{min-width:0;}
+  .ph{max-width:100%;}
+  .timeline{grid-template-columns:minmax(0,1fr);}
+  .tl-step{grid-template-columns:96px minmax(0,1fr);}
+  @media (max-width:760px){.tl-step{grid-template-columns:56px minmax(0,1fr); gap:16px;}}
+  .tl-step>*{min-width:0;}
+
+  .step h3 .en,.en{font-family:var(--lat); font-style:italic; font-weight:600; color:var(--gold-deep); font-size:0.85em; white-space:nowrap;}
+  .section-sub{font-family:var(--serif); font-size:clamp(17px,2vw,20px); color:var(--gold-deep); margin-top:14px;}
+  .about-link{display:inline-block; margin-top:12px; font-size:13.5px; color:var(--gold-deep); text-decoration:none; border-bottom:1px solid var(--line);}
+  .about-book{display:grid; grid-template-columns:150px minmax(0,1fr); gap:26px; align-items:center; margin-top:8px;}
+  .about-book img{width:150px; height:auto;}
+  @media (max-width:600px){.about-book{grid-template-columns:minmax(0,1fr);} .about-book img{width:140px;}}
+  .report-grid{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:20px;}
+  @media (max-width:1000px){.report-grid{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  @media (max-width:560px){.report-grid{grid-template-columns:minmax(0,1fr);}}
+  .report-card{margin:0; background:var(--card); border:1px solid var(--line-soft); box-shadow:var(--shadow); display:flex; flex-direction:column;}
+  .report-card img{width:100%; height:220px; object-fit:cover; object-position:top; border-bottom:1px solid var(--line-soft);}
+  .report-card figcaption{padding:16px 18px 18px; font-size:13.5px; color:#4a5049; line-height:1.75;}
+  .report-card figcaption b{display:block; font-family:var(--serif); color:var(--ink); font-size:15.5px; margin-bottom:4px;}
+  .roi-note a{color:var(--gold); margin-left:6px;}
+  .en-block{display:block; font-size:15px; margin-top:4px;}
+  .about-book-noimg{display:block;}
+  .faq-list{margin:10px 0 0 0; padding:0 0 0 18px; list-style:disc;}
+  .faq-list li{font-size:14.5px; color:#4a5049; line-height:1.85; margin-bottom:6px;}
+  .book-btn{margin-top:18px;}
+
+  /* 手機版：表格左欄標題、點擊範圍、前後對比欄寬 */
+  @media (max-width:760px){
+    table.cmp.cmp-ai tbody th::before{content:"工具的角色"; display:block; font-family:var(--lat); font-style:italic; font-weight:600; color:var(--gold-deep); font-size:13px; letter-spacing:0.06em; margin-bottom:6px;}
+    .cite{padding:10px 0; margin-left:0; margin-top:4px;}
+    .about-link{padding:10px 0;}
+    .faq summary{min-height:52px; padding-top:14px; padding-bottom:14px;}
+    .roi-grid{grid-template-columns:minmax(0,1fr) auto auto; column-gap:0;}
+    .roi-grid span{padding-left:4px; padding-right:8px;}
+    .roi-b,.roi-a{white-space:nowrap; font-size:15px !important;}
+    .roi-table{padding:22px 18px 14px;}
+  }
+  .stat-strip{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:18px; margin:40px 0 8px;}
+  .stat-strip>div{background:var(--card); box-shadow:var(--shadow); padding:22px 20px; text-align:center;}
+  .stat-strip b{display:block; font-family:var(--serif); font-size:30px; color:var(--ink); margin-bottom:6px;}
+  .stat-strip span{font-size:14px; color:var(--muted, #666);}
+  .src-note{font-size:12.5px; color:#888; margin-bottom:8px;}
+  .src-note a{color:inherit;}
+  .hr-note a{color:var(--gold-deep); font-weight:600;}
+  @media (max-width:700px){.stat-strip{grid-template-columns:minmax(0,1fr);}}
+  .cycle{list-style:none; padding:0; margin:0; display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:22px; counter-reset:c;}
+  .cycle-step{position:relative; background:var(--card); box-shadow:var(--shadow); padding:28px 24px 24px; display:flex; flex-direction:column;}
+  .cycle-step:not(:last-child)::after{content:"→"; position:absolute; right:-18px; top:44px; color:var(--gold-deep); font-size:20px; z-index:1;}
+  .cycle-num{font-family:var(--serif); font-size:44px; font-weight:600; color:var(--gold-deep); line-height:1; margin-bottom:16px;}
+  .cycle-num small{font-size:22px; margin-left:2px;}
+  .cycle-step h3{font-size:18px; margin-bottom:10px;}
+  .cycle-step p{font-size:14.5px; line-height:1.85; flex:1;}
+  .cycle-src{display:block; margin-top:14px; font-size:12px; color:#888;}
+  .cycle-src a{color:inherit;}
+  .dilemma{margin:44px auto 0; max-width:760px; text-align:center; background:#111; color:var(--cream,#F2EBDD); padding:40px 28px;}
+  .dilemma-kicker{font-size:14px; letter-spacing:0.1em; color:var(--gold,#C6A15B); margin-bottom:14px;}
+  .dilemma-main{font-family:var(--serif); font-size:28px; line-height:1.6; margin-bottom:16px;}
+  .dilemma-q{font-size:18px; color:var(--gold,#C6A15B); font-weight:600;}
+  @media (max-width:1000px){.cycle{grid-template-columns:repeat(2,minmax(0,1fr));} .cycle-step::after{display:none;}}
+  @media (max-width:600px){.cycle{grid-template-columns:minmax(0,1fr);} .cycle-step:not(:last-child)::after{content:"↓"; display:block; right:auto; left:50%; top:auto; bottom:-24px;} .dilemma-main{font-size:22px;}}
+  .pillar{display:flex; flex-direction:column;}
+  .pillar .fix{margin-top:18px; padding-top:16px; border-top:1px solid var(--line, #e5ded0);}
+  .fix-label{display:block; font-size:13px; font-weight:700; color:var(--gold-deep); margin-bottom:8px; letter-spacing:0.02em;}
+  .pillar .fix p{font-size:14.5px; line-height:1.85;}
+  .cred-line{margin-top:14px; font-size:13px; font-weight:700; color:var(--gold-deep); line-height:1.7;}
+  .iceberg{margin:28px 0 40px;}
+  .iceberg img{width:100%; height:auto; display:block; box-shadow:var(--shadow);}
+  .calc{margin-top:28px; text-align:center;}
+  .calc-panel{margin-top:24px; text-align:left; background:var(--card,#fff); box-shadow:var(--shadow); padding:28px 26px;}
+  .calc-panel[hidden]{display:none;}
+  .calc-hint{font-size:14.5px; margin-bottom:18px;}
+  .calc-inputs{display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:16px; margin-bottom:22px;}
+  .calc-field{display:flex; flex-direction:column; gap:8px; font-size:13.5px; font-weight:700; color:var(--ink);}
+  .calc-in{display:flex; align-items:center; border:1px solid var(--line,#ddd); background:#fff;}
+  .calc-in input{flex:1; min-width:0; border:0; padding:12px 12px; font-size:18px; font-family:inherit; background:transparent; color:var(--ink);}
+  .calc-in input:focus{outline:2px solid var(--gold,#C6A15B); outline-offset:-2px;}
+  .calc-in em{font-style:normal; font-weight:400; color:#8a8073; padding:0 12px;}
+  @media (max-width:860px){.calc-inputs{grid-template-columns:repeat(2,minmax(0,1fr));}}
+  .who-tag{display:table; margin:0 0 10px; padding:2px 10px; font-size:12px; font-weight:700; color:var(--gold-deep); border:1px solid var(--gold,#C6A15B); vertical-align:middle;}
+  .cycle-step p:not(.cycle-key){flex:1;}
+  .cycle-src{min-height:3.4em;}
+  .cycle-key{margin-top:16px; padding-top:14px; border-top:1px solid var(--line,#e5ded0); font-family:var(--serif); font-size:18px !important; font-weight:600; line-height:1.6 !important; color:#8C2F39; flex:0 !important;}
+  .calc-role{display:flex; gap:10px; margin-bottom:18px;}
+  .calc-role label{display:flex; align-items:center; gap:8px; padding:10px 20px; border:1px solid var(--line,#ddd); cursor:pointer; font-weight:700; font-size:15px;}
+  .calc-role label:has(input:checked){border-color:var(--gold,#C6A15B); background:rgba(198,161,91,0.10);}
+  .calc-inputs{grid-template-columns:repeat(5,minmax(0,1fr)) !important;}
+  .calc-field small{font-size:12px; font-weight:400; color:#8a8073; line-height:1.5;}
+  .calc-out th{width:62%;}
+  @media (max-width:1000px){.calc-inputs{grid-template-columns:repeat(2,minmax(0,1fr)) !important;}}
+  @media (max-width:520px){.calc-inputs{grid-template-columns:minmax(0,1fr) !important;}}
+  .calc-hidden{margin-top:22px; padding:20px 24px; background:#111; color:var(--cream,#F2EBDD);}
+  .calc-hidden-title{font-family:var(--serif); font-size:19px; font-weight:600; color:var(--gold,#C6A15B); margin-bottom:10px;}
+  .calc-hidden ul{margin:0 0 10px 1.2em; padding:0; line-height:1.9; font-size:15px;}
+  .calc-hidden p:last-child{font-size:14px; opacity:0.85;}
+  .calc-step{font-weight:700; color:var(--ink); font-size:16px; margin:4px 0 12px;}
+  .calc-step-sub{font-weight:400; font-size:13.5px; color:#8a8073; margin-left:6px;}
+  .calc-role{display:grid !important; grid-template-columns:repeat(2,minmax(0,1fr)); gap:14px; margin-bottom:24px;}
+  .calc-role label{padding:16px 18px !important; align-items:flex-start !important; background:#fff;}
+  .calc-role label input{margin-top:5px; width:18px; height:18px; accent-color:var(--gold-deep,#9C7A3C);}
+  .calc-role label span{display:flex; flex-direction:column; gap:4px;}
+  .calc-role label b{font-size:17px; color:var(--ink);}
+  .calc-role label small{font-weight:400; font-size:13px; color:#8a8073;}
+  #calcBody[hidden]{display:none;}
+  .mishire{margin-top:56px;}
+  .mishire-title{font-family:var(--serif); font-size:26px; line-height:1.5; color:var(--ink); margin-bottom:24px;}
+  .mishire-stats{display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:20px;}
+  .mishire-stats>div{background:var(--card,#fff); box-shadow:var(--shadow); padding:26px 24px; display:flex; flex-direction:column;}
+  .mishire-stats b{font-family:var(--serif); font-size:40px; color:#8C2F39; line-height:1; margin-bottom:14px;}
+  .mishire-stats p{font-size:14.5px; line-height:1.85; flex:1;}
+  .mishire-close{margin-top:28px; font-family:var(--serif); font-size:20px; line-height:1.7; color:var(--ink); border-left:3px solid #8C2F39; padding-left:18px;}
+  @media (max-width:860px){.mishire-stats{grid-template-columns:minmax(0,1fr);} .mishire-title{font-size:21px;}}
+  .mishire-lead{font-size:15px; color:var(--text,#555); margin:-8px 0 22px;}
+  .mishire-lead b{color:#8C2F39; font-family:var(--serif); font-size:20px; margin-right:6px;}
+  .mishire .mishire-close{margin:0 0 24px;}
+  .mishire-stats{grid-template-columns:repeat(2,minmax(0,1fr)) !important;}
+  @media (max-width:860px){.mishire-stats{grid-template-columns:minmax(0,1fr) !important;}}
+  .inline-cta{text-align:center; margin-top:40px;}
+  /* 手機閱讀：避免孤字、字級不小於 14px */
+  p,li,h1,h2,h3,h4,summary,small,td,th{text-wrap:pretty; line-break:strict;}
+  h1,h2,.dilemma-main,.mishire-title{text-wrap:balance;}
+  .nw{white-space:nowrap;}
+  .cycle-num,.mishire-stats b,.mishire-lead b{white-space:nowrap;}
+  @media (max-width:600px){
+    .fine,.fine-in,.cycle-src,.fix-label,.cred-line,.calc-field,.calc-field span,.calc-field small,.calc-role label small,
+    .about-role,.foot-note,.foot-role,.foot-links,.src-note,.calc-hint,.calc-step-sub,.trust,.below,.cite,.faq-body,.who-tag,
+    .eyebrow,.hr-note,.calc-in em,.cmp td,.cmp th,.cmp td::before,.form-card label,.field label,.field .opt{font-size:14px !important;}
+  }
+  /* 標題、金句：只在標點處換行，避免詞被切開 */
+  h1,h2,h3,.hero-slogan,.cycle-key,.dilemma-q,.dilemma-main,.mishire-title,.mishire-close,.pullquote,.calc-hidden-title,.calc-step,.fix-label,.cred-line{word-break:keep-all; overflow-wrap:anywhere;}
+  @media (max-width:600px){
+    .calc-role{grid-template-columns:minmax(0,1fr) !important;}
+    .calc-out th{white-space:normal !important; width:auto !important;}
+    .calc-hidden{padding:18px 18px;}
+    .calc-hidden ul{margin-left:1em;}
+  }
+  .iceberg-hint{display:none;}
+  @media (max-width:600px){
+    .iceberg-scroll{overflow-x:auto; -webkit-overflow-scrolling:touch;}
+    .iceberg-scroll img{width:760px !important; max-width:none !important;}
+    .iceberg-hint{display:block; text-align:center; font-size:14px; color:#8a8073; margin-top:10px;}
   }
 </style>
-</head>
-<body class="relative min-h-screen">
+<a class="skip-link" href="#main">跳至主要內容</a>
+<style id="mobile-typo">
+h1,h2,h3,h4,blockquote,summary{text-wrap:balance}
+p,li,td,th,figcaption,label,dd{text-wrap:pretty}
+.ph{display:inline-block}
+@media (max-width:640px){
+  .hero h1{font-size:26px; line-height:1.5}
+  .section-head h2{font-size:22px; line-height:1.5}
+  .cta-final h2{font-size:22px}
+  h3{font-size:18px; line-height:1.5}
+  h4{font-size:17px; line-height:1.5}
+  .pullquote{font-size:18px !important; line-height:1.65}
+}
+@media (max-width:640px){
+  .tl-step h4,.suit-col h4{font-size:17px}
+  .layer h4,.sci-basic h4,.card h3{font-size:17px}
+  h3[style*="font-size:22px"]{font-size:19px !important}
+  ul li{font-size:14.5px}
+}
+@media (max-width:640px){
+  .tl-step h4{font-size:16px}
+  .contrast-col li{font-size:14px}
+  .contrast-col{padding-left:20px; padding-right:20px}
+}
 
-    <!-- 背景氛圍光效 -->
-    <div class="bg-glow-gold top-0 left-1/4 -translate-x-1/2"></div>
-    <div class="bg-glow-emerald top-96 right-0"></div>
-    <div class="bg-glow-gold bottom-96 left-10"></div>
+</style>
+<header class="nav" id="siteNav">
+<div class="nav-inner">
+<button aria-controls="navLinks" aria-expanded="false" aria-label="開啟選單" class="nav-toggle" id="navToggle"><span></span></button>
+<nav class="nav-links" id="navLinks">
+<a href="#pain">卡關點</a>
+<a href="#harmony">解法</a>
+<a href="#about">關於 Ginger</a>
+<a href="#cost">代價試算</a>
+<a href="#faq">常見問題</a>
+<a href="#partners">管顧合作</a>
+<a aria-label="預約對談" class="btn btn-gold nav-cta" href="#book">預約對談</a>
+</nav>
+</div>
+</header>
+<main id="main">
+<!-- HERO -->
+<section class="hero" id="top" style="--hero-lines:url('data:image/svg+xml;utf8,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22560%22 height=%22560%22&gt;&lt;g fill=%22none%22 stroke=%22%23C6A15B%22 stroke-width=%221%22 opacity=%220.6%22&gt;&lt;circle cx=%22280%22 cy=%22280%22 r=%22240%22/&gt;&lt;circle cx=%22280%22 cy=%22280%22 r=%22170%22/&gt;&lt;circle cx=%22280%22 cy=%22280%22 r=%22100%22/&gt;&lt;path d=%22M40 280 L520 280%22/&gt;&lt;path d=%22M280 40 L280 520%22/&gt;&lt;/g&gt;&lt;/svg&gt;');">
+<div class="wrap hero-inner">
+<h1>業績，<span class="ph">不該只靠一兩個人撐。</span></h1>
+<p class="hero-slogan"><span class="ph">想保住明星球員，</span><span class="ph">又想養出明星球隊？</span><span class="ph">不用二選一。</span></p>
+</div>
+</section>
 
-    <!-- ================= 1. 頂部導覽列 (Navbar) ================= -->
-    <header class="sticky top-0 z-50 backdrop-blur-md bg-obsidian/85 border-b border-gold/15">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <!-- LOGO & 姓名標誌 -->
-            <a href="#" class="flex items-center gap-3.5 group">
-                <div class="w-12 h-12 rounded-xl overflow-hidden border border-gold/40 shadow-md group-hover:scale-105 transition duration-300 bg-black flex items-center justify-center p-0.5">
-                    <img src="official_diamond_logo.png" alt="林逸蓁 職感菁英學院 LOGO" class="w-full h-full object-contain">
-                </div>
-                <div>
-                    <div class="font-serif text-xl sm:text-2xl font-bold tracking-wider text-gold-gradient flex items-center gap-2">
-                        林逸蓁 <span class="text-xs sm:text-sm font-sans font-medium text-gold/80 tracking-normal px-2 py-0.5 rounded-full bg-gold/10 border border-gold/30">Ginger Lin</span>
-                    </div>
-                    <div class="text-[11px] sm:text-xs text-gray-400 font-sans tracking-wider">
-                        職感菁英學院 創辦人 ｜ 職涯資產主理人
-                    </div>
-                </div>
-            </a>
+<!-- 老闆的卡關點 -->
+<section class="section" id="pain">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">卡關點</span>
+<h2>這些情況，<span class="ph">是不是很熟悉？</span></h2>
+</div>
+<div class="grid-3">
+<div class="card quote-card"><span class="n">01</span><h3>「業績都靠那一兩個人，他一請假，整個月就難看。」</h3><p>業績集中在少數人身上，等於把公司的營收，押在他們的去留上。</p></div>
+<div class="card quote-card"><span class="n">02</span><h3>「我是公司最會賣的人，其他人都在等我下指令。」</h3><p>老闆一個人扛成交，團隊習慣等答案。老闆越忙，團隊越不會自己判斷。</p></div>
+<div class="card quote-card"><span class="n">03</span><h3>「把業績最好的人升主管，結果團隊業績反而掉了。」</h3><p>他忙著自己搶單、對下屬沒耐心。公司同時失去一位頂尖業務，換來一位辛苦的主管。</p></div>
+<div class="card quote-card"><span class="n">04</span><h3>「面試時很會講，進來三個月卻做不出業績。」</h3><p>履歷證明他做過什麼，面試看到他怎麼表達，卻看不到他在壓力和拒絕下會怎麼做。</p></div>
+<div class="card quote-card"><span class="n">05</span><h3>「送去上課回來很感動，但並沒有反應在工作表現上。」</h3><p>課程教的是技巧，回到現場沒有人帶、心態也沒改變，行為很快就回到原點。</p></div>
+<div class="card quote-card"><span class="n">06</span><h3>「主管知道每個人個性不同，卻不知道具體怎麼指導。」</h3><p>測評報告做了、也看了，主管真正需要的是：第一句話怎麼開口，怎麼讓他願意做、願意調整。</p></div>
+<div class="card quote-card"><span class="n">07</span><h3>「測評做了，報告卻躺在抽屜裡。」</h3><p>問題通常不在工具，而在沒有清楚的方法，知道怎麼把它用到帶人的現場。</p></div>
+<div class="card quote-card"><span class="n">08</span><h3>「報告交出去之後，老闆問：然後呢？」</h3><p>想接著推動後續輔導，卻要花大量時間跨部門溝通；人性上，員工很難對公司說實話，常常碰不到真正的痛點。</p></div>
+<div class="card quote-card"><span class="n">09</span><h3>「課上得很投入，回到工作崗位又打回原形。」</h3><p>講師能陪的只有教室裡的時間；回到現場沒有人帶、制度也沒跟上，成效很難被看見。</p></div>
+</div>
 
-            <!-- 桌面版快速錨點導覽 -->
-            <nav class="hidden md:flex items-center gap-7 text-sm font-medium text-gray-300">
-                <a href="#about" class="hover:text-gold transition duration-200">關於我</a>
-                <a href="#book" class="hover:text-gold transition duration-200">暢銷新書</a>
-                <a href="#services" class="hover:text-gold transition duration-200">旗艦方案</a>
-                <a href="#resources" class="hover:text-gold transition duration-200">免費資源專區</a>
-                <a href="#speaking" class="hover:text-gold transition duration-200">邀約與合作</a>
-            </nav>
+</div>
+</section>
 
-            <!-- 頂部按鈕 -->
-            <div class="flex items-center gap-3">
-                <a href="https://line.me/R/ti/p/@elites888" target="_blank" class="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full text-xs font-bold btn-gold-primary">
-                    <i class="fab fa-line text-sm text-[#06C755]"></i>
-                    加入 LINE@
-                </a>
-                <a href="#bni" class="inline-flex items-center gap-1.5 px-3 py-2 rounded-full text-xs font-medium btn-gold-secondary">
-                    <i class="fas fa-handshake text-gold"></i>
-                    <span class="nw">BNI 1-to-1</span>
-                </a>
-            </div>
-        </div>
-    </header>
+<!-- 痛點循環 -->
+<section class="section" id="cycle" style="background:#FBF9F5;">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">業務的用人循環</span>
+<h2>四個數字，<span class="ph">看懂業績為什麼會卡住。</span></h2>
+</div>
+<ol class="cycle">
+<li class="cycle-step">
+<span class="cycle-num">45<small>%</small></span>
+<p>45% 的 B2B 採購者，在最近一次採購中用了 AI 做功課；但 69% 的採購者，仍希望找業務確認 AI 給的資訊。業務的必備職能，已經從推銷產品，變成精準理解需求、協助判斷。</p>
+<p class="cycle-key">可是多數企業選業務，仍只看「會不會賣」</p>
+<span class="cycle-src">Gartner 2025 年 B2B 採購者調查</span>
+</li>
+<li class="cycle-step">
+<span class="cycle-num">0.2</span>
+<p>業務銷售職務的人才供需比只有 0.2，五個職缺搶一個人。結果容易落入「誰來就用誰」，適才適所在招募第一步就失守。</p>
+<p class="cycle-key">要找會賣的人，企業其實沒有選擇</p>
+<span class="cycle-src"><a href="https://blog.104.com.tw/2026-tech-talent-scientific-recruitment-strategy/" rel="noopener" target="_blank">104 人力銀行《2026 科技業人才白皮書》↗</a></span>
+</li>
+<li class="cycle-step">
+<span class="cycle-num">2<small>倍</small></span>
+<p>業務的年流動率是 34.7%，一般職務是 17.8%，幾乎兩倍。走一位，公司要付三次代價：離職的成本、重新找人與訓練，還有他帶走的客戶與資源。</p>
+<p class="cycle-key">好不容易找到好的，又留不住</p>
+<span class="cycle-src">Forbes（<a href="https://bakercommunications.com/blog/formula-for-calculating-cost-of-sales-turnover.html" rel="noopener" target="_blank">Baker Communications 引述 ↗</a>）</span>
+</li>
+<li class="cycle-step">
+<span class="cycle-num">−7.5<small>%</small></span>
+<p>升任前業績是別人兩倍的人，升任後帶的團隊業績成長反而少 7.5%（追蹤 214 家公司、1,553 次升遷）。會賣，不等於會帶：少了一位頂尖業務，又多了一位帶不動團隊的主管。</p>
+<p class="cycle-key">為了留人，升業績最好的當主管</p>
+<span class="cycle-src"><a href="https://cepr.org/article/promotions-and-peter-principle" rel="noopener" target="_blank">Benson, Li &amp; Shue｜Quarterly Journal of Economics ↗</a></span>
+</li>
+</ol>
+<div class="dilemma">
+<p class="dilemma-kicker">於是，老闆陷入兩難</p>
+<p class="dilemma-main">不升他，怕他走；<br/>升了他，怕團隊垮。</p>
+<p class="dilemma-q">要保住明星球員，還是養出明星球隊？</p>
+</div>
+<div class="inline-cta"><a class="btn btn-gold" href="#book">預約對談</a></div>
+</div>
+</section>
 
-    <!-- ================= 2. 首屏旗艦看板 (Hero Section) & 雙軌直通按鈕 ================= -->
-    <section id="about" class="relative pt-12 pb-20 md:py-24 overflow-hidden">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-                
-                <!-- 左側：人物肖像尊榮展示卡 -->
-                <div class="lg:col-span-5 flex justify-center lg:justify-start">
-                    <div class="relative w-full max-w-sm sm:max-w-md">
-                        <!-- 金色背光裝飾 -->
-                        <div class="absolute -inset-1.5 bg-gradient-to-r from-gold via-gold/30 to-emeraldTone rounded-3xl blur-md opacity-60"></div>
-                        <div class="relative rounded-2xl overflow-hidden border border-gold/40 shadow-2xl bg-surface">
-                            <img src="ginger_portrait.jpg" alt="林逸蓁 Ginger Lin 肖像" class="w-full h-auto object-cover transform hover:scale-102 transition duration-500">
-                            
-                            <!-- 底部懸浮身分徽章 -->
-                            <div class="absolute bottom-4 left-4 right-4 p-4 rounded-xl bg-obsidian/90 backdrop-blur-md border border-gold/30 text-center">
-                                <div class="font-serif font-bold text-lg text-gold-gradient">林逸蓁 Ginger Lin</div>
-                                <div class="text-xs text-gray-300 mt-1 flex items-center justify-center gap-2 flex-wrap">
-                                    <span class="inline-flex items-center gap-1"><i class="fas fa-award text-gold"></i> 暢銷書作者</span>
-                                    <span>•</span>
-                                    <span class="inline-flex items-center gap-1"><i class="fas fa-briefcase text-gold"></i> 20年幕僚歷練</span>
-                                    <span>•</span>
-                                    <span class="inline-flex items-center gap-1"><i class="fas fa-network-wired text-gold"></i> BNI 創智AI分會</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!-- 常見的做法 -->
+<section class="section" id="research">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">常見的做法</span>
+<h2>大部分企業不缺方法，<br/><span class="ph">或許只差一個新的視角。</span></h2>
+</div>
+<div class="cmp-wrap">
+<table class="cmp cmp-research">
+<thead><tr><th>常見的做法</th><th>可能沒看到的</th><th>第三方怎麼說</th></tr></thead>
+<tbody>
+<tr><th scope="row">把業績最好的業務升主管</th><td data-label="可能沒看到的">會銷售不等於會帶人</td><td data-label="第三方怎麼說">一份分析 214 家企業、超過 1,500 位升任主管業務的研究發現：個人業績越好越容易被升官，但他帶的部屬業績反而下滑；升任前業績每多一倍，部屬業績平均下降約 7.5%。<a class="cite" href="https://www.nber.org/digest/may18/peter-principle-isnt-just-real-its-costly" rel="noopener" target="_blank">Benson, Li &amp; Shue｜NBER ↗</a></td></tr>
+<tr><th scope="row">靠資歷和過去績效選主管</th><td data-label="可能沒看到的">看不到帶人的天賦</td><td data-label="第三方怎麼說">Gallup 指出，企業選錯主管人選的比例高達 82%；大約每 10 人只有 1 人具備高度帶人天賦。<a class="cite" href="https://www.gallup.com/workplace/231593/why-great-managers-are-so-rare.aspx" rel="noopener" target="_blank">Gallup ↗</a></td></tr>
+<tr><th scope="row">靠履歷和面試挑人</th><td data-label="可能沒看到的">看不到他在工作裡會怎麼做</td><td data-label="第三方怎麼說">整合數十年選才研究的分析發現：跟工作直接相關的工具預測力最高；評量若以「在工作中」的情境作答，預測力也明顯較高。<a class="cite" href="https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance" rel="noopener" target="_blank">Sackett 等人 2022｜SIOP ↗</a></td></tr>
+<tr><th scope="row">送去上銷售課</th><td data-label="可能沒看到的">回到現場沒人帶，很快回到原點</td><td data-label="第三方怎麼說">訓練轉移研究一再指出：課程能不能用在工作上，很大程度取決於回到職場後的環境，尤其是主管和同事的支持。<a class="cite" href="https://en.wikipedia.org/wiki/Transfer_of_training" rel="noopener" target="_blank">Baldwin &amp; Ford 模型 ↗</a></td></tr>
+<tr><th scope="row">加獎金、訂業績目標</th><td data-label="可能沒看到的">每個人被驅動的方式不一樣</td><td data-label="第三方怎麼說">哈佛商業評論刊出的業務激勵研究發現：業務團隊不是同一種人，明星、中堅與落後的業務，各自有不同的能力與內在動機，對同一套獎金制度的反應也不同；例如明星業務遇到獎金上限，可能就停下腳步。<a class="cite" href="https://news.darden.virginia.edu/2012/07/18/1-size-does-not-fit-all-when-motivating-sales-force/" rel="noopener" target="_blank">Steenburgh &amp; Ahearne｜HBR 2012 ↗</a></td></tr>
+<tr><th scope="row">請頂尖業務上台分享</th><td data-label="可能沒看到的">他自己也說不清楚做對了什麼</td><td data-label="第三方怎麼說">哲學家 Polanyi 提出「隱性知識」：人知道的，比說得出來的多。</td></tr>
+<tr><th scope="row">用通用 AI 問「這個人該怎麼帶」</th><td data-label="可能沒看到的">AI 只知道您告訴它的，不認識這位成員</td><td data-label="第三方怎麼說">一份檢視五款主流 AI 助理的研究發現，AI 普遍會順著使用者表達的看法回答；主管若先入為主，AI 往往也跟著附和。彭博社以 GPT 對履歷排序測試數千次，也發現結果會因姓名暗示的族裔而出現偏差。再加上一般 AI 沒有這位成員的行為數據，給的多半是通用建議。<a class="cite" href="https://arxiv.org/abs/2310.13548" rel="noopener" target="_blank">Sharma 等人 2023｜arXiv ↗</a><a class="cite" href="https://www.bloomberg.com/graphics/2024-openai-gpt-hiring-racial-discrimination/" rel="noopener" target="_blank">Bloomberg 2024 ↗</a></td></tr>
+</tbody>
+</table>
+</div>
+</div>
+</section>
 
-                <!-- 右側：權威定位、核心Slogan與雙軌分流按鍵 -->
-                <div class="lg:col-span-7 flex flex-col justify-center text-left">
-                    <!-- 權威標籤群 -->
-                    <div class="flex flex-wrap gap-2 mb-4">
-                        <span class="px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-gold/15 text-gold border border-gold/30">
-                            <i class="fas fa-book-open mr-1"></i> 暢銷商業新書《把資歷變資產》作者
-                        </span>
-                        <span class="px-3 py-1 rounded-full text-xs font-semibold tracking-wide bg-emeraldTone text-[#6ee7b7] border border-emeraldBorder">
-                            <i class="fas fa-gem mr-1"></i> BNI 新竹B區 創智 AI分會
-                        </span>
-                        <span class="px-3 py-1 rounded-full text-xs font-medium text-gray-300 bg-surface border border-gray-700">
-                            <i class="fas fa-chess-knight mr-1 text-gold"></i> 20 年高階經營層幕僚
-                        </span>
-                    </div>
+<!-- 人和四要素 -->
+<section class="section" id="harmony" style="background:#FBF9F5;">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">業務成長的關鍵與解法</span>
+<h2>天時地利，處於被動；<br/><span class="ph">人和，是唯一能主動經營的。</span></h2>
+</div>
+<p class="section-lead">要讓「人才」變成持續產生價值的「人財」，需要三件事一起配合：</p>
+<div class="grid-3">
+<div class="card pillar"><span class="n">01</span><h3>人｜價值認知</h3><p>個人想要的，和公司要去的方向對不上，再多教育訓練，也有賞味期限。</p>
+<div class="fix"><span class="fix-label">解法｜NLP 從屬層級</span><p>從業務對自己角色與價值的定位開始，對齊個人與公司要去的方向。</p></div></div>
+<div class="card pillar"><span class="n">02</span><h3>工具｜數據相輔相成</h3><p>路遙知馬力，但人是會變的。一次評測只看到單點，持續追蹤，才看得見全貌。</p>
+<div class="fix"><span class="fix-label">解法｜行為科學 × 動態管理 × 內部 AI</span><p>持續追蹤每個人的變化，在離職之前看見訊號。</p></div></div>
+<div class="card pillar"><span class="n">03</span><h3>制度｜看得見未來，願意分享</h3><p>人會留下，是因為在這裡看得見自己的下一步；經驗會傳下去，是因為分享的人被看見、有回報。</p>
+<div class="fix"><span class="fix-label">解法｜NLP 複製卓越策略 × 升遷雙軌</span><p>把頂尖業務的判斷變成團隊學得會的能力；升遷不只一條路。</p></div></div>
+</div>
+<p class="pullquote">三件事少了任何一件，<br/>再多資源投入都會卡關。</p>
+<div class="callout human">
+<strong>人性提問：頂尖業務會不會留一手？</strong>
+<p>留人，不是把人留住，而是讓他在這裡看得見未來；傳承，不是要他交出祕訣，而是讓分享成為他的舞台。</p>
+<p>很多頂尖業務不是不教，而是說不出來。複製卓越讓傳承有回報、有舞台。從「怕被取代的人」，變成「團隊都在學習的標竿」。</p>
+</div>
+<div class="inline-cta"><a class="btn btn-gold" href="#book">預約對談</a></div>
+</div>
+</section>
 
-                    <!-- 核心標語 (Slogan 定案方案 1) -->
-                    <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-black leading-tight tracking-tight text-white mb-6">
-                        讓每一段經歷產生<span class="text-gold-gradient">複利</span>，<br>
-                        <span class="nw">讓每一次投入都成為</span><span class="nw">持續創造價值的<span class="text-gold-gradient">資產</span>。</span>
-                    </h1>
+<!-- WHY BEHAVIORAL SCIENCE -->
+<section class="section" id="why-science">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">Why Behavioral Science</span>
+<h2>為什麼要用<span class="ph">行為科學看人？</span></h2>
+</div>
+<p class="section-lead">人資系統記錄的是「發生了什麼」：出勤、薪資、考績、上過什麼課。但真正決定一位業務能不能成為資產的，在水面下：他適合賣還是適合帶？在壓力和拒絕下會怎麼做？主管明天該怎麼跟他談？這些，需要行為科學。</p>
+<figure class="iceberg"><div class="iceberg-scroll"><img src="iceberg.jpg" alt="冰山圖：人資系統記錄的是發生了什麼；水面下的為什麼與接下來怎麼做——適合賣還是適合帶、壓力和拒絕下會怎麼做、什麼能驅動他、主管一對一該怎麼談、頂尖業務的成功樣貌、離職前的壓力訊號——一般人資系統沒有記錄" loading="lazy" width="1119" height="516"/></div><figcaption class="iceberg-hint">← 左右滑動，看完整圖 →</figcaption></figure>
+<div class="grid-3">
+<div class="card"><h3>比履歷和面試更貼近工作情境</h3><p>整合數十年選才研究的分析發現：和工作直接相關、以「在工作中會怎麼做」為出發點的評量，預測力明顯較高。<a href="https://www.siop.org/tip-article/is-cognitive-ability-the-best-predictor-of-job-performance-new-research-says-its-time-to-think-again/" rel="noopener" target="_blank">Sackett 等人 2022 ↗</a></p></div>
+<div class="card"><h3>以頂尖業務為標準</h3><p>用公司自己的頂尖業務當比對基準，招募與升遷都有依據。比對出來的，是貴公司自己的成功樣貌，而不是別人的標準。</p></div>
+<div class="card"><h3>看出誰適合升主管</h3><p>研究發現，升主管前業績越好的人，帶出來的團隊業績成長反而越少。用行為數據看帶人天賦，避免一次升遷、損失兩次。</p></div>
+<div class="card"><h3>人是會變的，需要動態管理</h3><p>換主管、換職務、家裡有變化，同一個人半年後可能完全不同。比對他自然的樣子和他覺得工作要求的樣子，差距就是壓力訊號，能在離職之前介入。</p></div>
+<div class="card"><h3>比直接問 AI 更可靠</h3><p>通用 AI 的答案取決於提問的人，主管先入為主，AI 往往跟著附和。行為數據不會因為誰問而改變，也不會因為把員工資料貼到公開的 AI 平台，產生個資等資安風險。</p></div>
+<div class="card"><h3>補上知識管理的盲點</h3><p>知識管理多半靠人的意識：覺得值得留下的，才分享留下。但真正的重點，常是傳承者沒意識到、早已變成自然判斷的心法，或他自己覺得不重要而沒說出來的部分。搭配複製卓越策略，把他的判斷變成團隊學得會的能力：成就可以帶走，核心的判斷能力留在公司。</p></div>
+</div>
+</div>
+</section>
 
-                    <!-- 雙軌直通分流按鍵（直接包含面向企業與面向菁英的深度文案） -->
-                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-2">
-                        <!-- 按鈕 1：企業主 ＆ 團隊領袖 -->
-                        <a href="#enterprise-solution" class="group p-5 rounded-xl bg-gradient-to-br from-surface to-[#0e1614] border border-gold/30 hover:border-gold transition duration-300 shadow-lg hover:-translate-y-1 flex flex-col justify-between">
-                            <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs font-bold tracking-wider text-gold px-2.5 py-0.5 rounded bg-gold/10 border border-gold/20">給企業</span>
-                                    <i class="fas fa-arrow-right text-gray-500 group-hover:text-gold group-hover:translate-x-1 transition duration-300"></i>
-                                </div>
-                                <h3 class="font-serif text-lg font-bold text-white group-hover:text-gold transition duration-200">
-                                    企業負責人 ＆ 團隊領袖
-                                </h3>
-                                <p class="text-xs text-gray-300 mt-2 leading-relaxed">
-                                    協助企業打造自主運轉、高產值的「資產型業務團隊」，複製前 5% 頂尖人才。
-                                </p>
-                            </div>
-                            <div class="mt-4 text-xs font-semibold text-gold flex items-center gap-1">
-                                探索團隊複製體系 <i class="fas fa-chevron-right text-[10px]"></i>
-                            </div>
-                        </a>
+<!-- ESG -->
+<section class="section band-dark" id="esg">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">ESG｜Human Capital</span>
+<h2>人才管理，<span class="ph">也是 ESG 的一部分。</span></h2>
+</div>
+<p class="section-lead">全體上市櫃公司都要申報 ESG 資訊；金管會也要求分階段接軌 IFRS 永續揭露準則，揭露範圍將從氣候擴大到勞工健康與安全等議題。就算沒有上市，大客戶也會開始要求供應鏈提供 ESG 資料。人才決策有數據佐證，已是趨勢。</p>
+<div class="grid-3">
+<div class="card"><span class="n">S｜社會</span><h3>員工留任</h3><p>及早看見壓力訊號，在離職之前介入，降低流動率。</p></div>
+<div class="card"><span class="n">S｜社會</span><h3>人才培育</h3><p>依每個人的行為特質規劃帶法與培訓，讓培育成效看得見、說得清。</p></div>
+<div class="card"><span class="n">S｜社會</span><h3>健康與安全</h3><p>看見誰正在勉強自己，主管一對一有依據，照顧員工的身心狀態。</p></div>
+<div class="card"><span class="n">G｜治理</span><h3>關鍵人才盤點</h3><p>知道誰是值得複製的頂尖人才，以及他和其他人的差異在哪裡。</p></div>
+<div class="card"><span class="n">G｜治理</span><h3>主管接班規劃</h3><p>升遷前先看帶人天賦，不再只看個人業績，避免錯升主管。</p></div>
+<div class="card"><span class="n">G｜治理</span><h3>用人決策有依據</h3><p>招募、升遷與獎勵有數據佐證，經得起董事會與利害關係人的檢視。</p></div>
+</div>
+<p class="fine">資料來源：<a href="https://ec.ltn.com.tw/article/breakingnews/5346948" rel="noopener" target="_blank">金管會 IFRS 永續揭露準則分階段適用規定（自由時報）</a>；<a href="https://www.ctee.com.tw/news/20260603700642-430301" rel="noopener" target="_blank">1,958 家上市櫃公司應申報 ESG 資訊（工商時報）</a>；<a href="https://www.ctee.com.tw/news/20260409700114-431307" rel="noopener" target="_blank">從資源到資本（工商時報）</a></p>
+</div>
+</section>
 
-                        <!-- 按鈕 2：職場工作者 ＆ 專業菁英 -->
-                        <a href="#pro-workshop" class="group p-5 rounded-xl bg-gradient-to-br from-surface to-[#161220] border border-gray-700/80 hover:border-gold/60 transition duration-300 shadow-lg hover:-translate-y-1 flex flex-col justify-between">
-                            <div>
-                                <div class="flex items-center justify-between mb-2">
-                                    <span class="text-xs font-bold tracking-wider text-gray-300 px-2.5 py-0.5 rounded bg-white/5 border border-white/10">給個人</span>
-                                    <i class="fas fa-arrow-right text-gray-500 group-hover:text-gold group-hover:translate-x-1 transition duration-300"></i>
-                                </div>
-                                <h3 class="font-serif text-lg font-bold text-white group-hover:text-gold transition duration-200">
-                                    職場工作者 ＆ 專業菁英
-                                </h3>
-                                <p class="text-xs text-gray-300 mt-2 leading-relaxed">
-                                    獨家 GAME 職涯賽局法則™，陪伴職場工作者建立具備長效複利的「職涯資產」。
-                                </p>
-                            </div>
-                            <div class="mt-4 text-xs font-semibold text-gold flex items-center gap-1">
-                                查看一日工作坊與新書 <i class="fas fa-chevron-right text-[10px]"></i>
-                            </div>
-                        </a>
-                    </div>
+<!-- WHY ME -->
+<section class="section" id="about">
+<div class="wrap">
+<div class="about">
+<div class="about-photo">
+<img alt="Ginger Lin 林逸蓁" height="1024" loading="lazy" src="https://ginger.elites888.com/ginger_portrait.jpg" width="682"/>
+<p class="about-name">Ginger Lin 林逸蓁</p>
+<p class="about-role">《把資歷變資產》作者｜20+ 年企業經營層幕僚</p>
+<a class="about-link" href="https://ginger.elites888.com" rel="noopener" target="_blank">認識更多 Ginger：個人品牌網站 ↗</a>
+</div>
+<div class="about-body">
+<span class="eyebrow">關於 Ginger</span>
+<h2 class="about-hook">我不是您團隊裡最會賣的人。<br/><span class="ph">但我知道，怎麼讓最會賣的那個人的方法，</span><span class="ph">傳給整個團隊。</span></h2>
+<p>我在企業經營層身邊擔任幕僚 20 多年，也負責過人才發展。我每天的工作，就是解決老闆說出口與沒說出口的問題。服務老闆，思考的高度與角度，往往比服務客戶需要考量更多面向。</p>
+<p>這些年，我看過很多中小企業靠一兩個人撐業績；升了最會銷售的人當主管，團隊卻開始掉業績；花錢上課，下課後一切回到原點。問題往往不在誰不夠努力，而是人才的價值認知、選人用人的依據、留人與傳承的制度，沒有一起到位。</p>
+<div class="creds">
+<div class="cred"><h4>1. 理解老闆</h4><p>20 多年經營層幕僚與人才發展經驗。理解老闆在意的優先順序，也理解一個決定要在組織裡推動，需要顧到哪些人、哪些環節。</p></div>
+<div class="cred"><h4>2. 對人的洞察</h4><p>多年在組織裡觀察人、發展人，再加上 NLP 專業執行師（美國 ABNLP）的訓練：</p>
+<ul class="dash-list">
+<li><strong>複製卓越策略（Modeling Excellence）</strong>：找出頂尖業務連自己都說不清楚的成交心法，讓每位員工都能成為公司的資產。</li>
+<li><strong>從屬層級（Logical Levels）</strong>：從「我是誰」開始改變業務對銷售的看法，讓每個人從「我有可能做到嗎？」轉成「我要怎麼做到？」。</li>
+<li>結合行為科學數據，看懂每個人適合的位置與帶法。</li>
+</ul>
+<p class="fine-in">NLP 在學術界仍有不同看法，所以我不談神奇效果，只用其中兩套經得起檢驗的方法：「複製卓越」的原理，與認知心理學用來萃取專家隱性知識的「認知任務分析」相近，整合研究顯示以這種方式設計的訓練成效相當顯著（<a href="https://digitalcommons.usu.edu/itls_facpub/384" rel="noopener" target="_blank">Tofel-Grehl &amp; Feldon, 2013</a>）；「從屬層級」則是我在實務上，用來對齊信念與行為的架構工具。</p></div>
+<div class="cred"><h4>3. 成交實戰與教練資格</h4><p>師承 Dan Lok，具備高單價成交訓練教練資格。成交經驗來自自己的教練事業，以及二十年向經營層提案：每一次提案，都是一場高單價成交。合作企業可同時獲得我的高單價成交線上課程。</p></div>
+<div class="cred"><h4>4. GPHR® 與就業服務專業</h4><p>持有美國 HRCI 全球人力資源管理師（Global Professional in Human Resources，GPHR®）、勞動部就業服務乙級技術士證照。除了業務團隊，也能協助企業處理跨國人力配置與聘用；並可從學院培養的人才中，為企業引薦合適人選。</p></div>
+<div class="cred"><h4>5. 專業形象</h4><p>持有日本 KOZU Style 專業形象顧問認證，由 AICI 國際形象顧問協會（Association of Image Consultants International）日本分會前會長神津佳予子一對一授課。業務給客戶的第一印象，也是成交的一部分；從外在形象到內在認同，一起提升。</p></div>
+</div>
+<div class="about-book about-book-noimg">
+<p class="about-close">我把「資產型人才」的方法論系統化，寫成《把資歷變資產》。書裡不只寫給想讓經歷增值的工作者，也寫給想打造資產型人才團隊的經營者。<br/>每家公司最珍貴的資產，往往是那一兩位頂尖業務；但他們的成交心法，常常跟著人一起離開。<br/>我陪企業<strong>把這份卓越找出來、放大，傳給整個團隊。</strong></p>
+<a class="btn btn-outline-ink book-btn" href="https://book.elites888.com" rel="noopener" target="_blank">了解更多《把資歷變資產》 ↗</a>
+</div>
+</div>
+</div>
+</div>
+</section>
 
-                </div>
-            </div>
+<!-- 錯聘、錯升、留不住的代價 -->
+<section class="section" id="cost">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">離職與錯聘的代價</span>
+<h2>真正的成本，<span class="ph">不是工具多少錢。</span></h2>
+</div>
+<p class="section-lead">上面的循環，每轉一圈都有成本。以台灣的薪資與法定福利試算：</p>
+<h3 class="sub-h">走一位業務或業務主管，公司損失多少？（台灣版試算）</h3>
+<div class="cmp-wrap">
+<table class="cmp cmp-cost">
+<thead><tr><th>項目</th><th>業務</th><th>業務主管</th></tr></thead>
+<tbody>
+<tr><th scope="row">薪資福利：年薪 ×（1＋法定福利）＋車馬津貼</th><td data-label="業務" class="num">75 萬</td><td data-label="業務主管" class="num">98 萬</td></tr>
+<tr><th scope="row">招募與訓練：刊登、獵頭、面試時間、新人訓練</th><td data-label="業務" class="num">5 萬</td><td data-label="業務主管" class="num">26 萬</td></tr>
+<tr><th scope="row">空窗損失：職缺空著的那段時間少做的業績</th><td data-label="業務" class="num">26 萬</td><td data-label="業務主管" class="num">30 萬</td></tr>
+<tr><th scope="row">上手期損失：新人還沒上手少做的業績</th><td data-label="業務" class="num">30 萬</td><td data-label="業務主管" class="num">18 萬</td></tr>
+<tr><th scope="row">連鎖離職：主管走，多走一位部屬</th><td data-label="業務" class="num">—</td><td data-label="業務主管" class="num">80 萬</td></tr>
+<tr class="total"><th scope="row">合計</th><td data-label="業務" class="num">約 136 萬<br/>約年薪 2.3 倍</td><td data-label="業務主管" class="num">約 252 萬<br/>約年薪 3.2 倍</td></tr>
+</tbody>
+</table>
+</div>
+<p class="fine">還沒算進去的：客戶跟著走、團隊跟著散。年薪依 <a href="https://guide.104.com.tw/salary/cat/2005003000?type=catjobs" rel="noopener" target="_blank">104 薪資情報</a>中位數（業務月薪 5 萬、主管 6.5 萬，2026 年 11 月）；法定福利依 2026 年雇主負擔勞保、健保、勞退、職災（業務約 19%、主管約 18%）；空窗期依 <a href="https://blog.104.com.tw/?p=243679" rel="noopener" target="_blank">104《2026 年人資 FBI 報告》</a>（一般員工 40 天、主管 77 天）。範例假設：每位業務月毛利 20 萬；主管帶 6 人，空缺時團隊業績下滑 10%、上手期下滑 5%。以上為範例粗估，請依實際狀況調整。</p>
 
-            <!-- 個人完整專業簡介區塊 (新加入) -->
-            <div class="mt-16 luxury-card rounded-2xl p-7 sm:p-9 border border-gold/25">
-                <div class="flex items-center gap-3 mb-5">
-                    <span class="w-2.5 h-6 bg-gold rounded-full"></span>
-                    <h2 class="font-serif text-xl sm:text-2xl font-bold text-white">
-                        <span class="nw">關於林逸蓁 ｜</span> <span class="nw">20 年高階經營層幕僚</span><span class="nw">的深度洞察</span>
-                    </h2>
-                </div>
-                <div class="space-y-4 text-sm sm:text-base text-gray-300 leading-relaxed font-normal">
-                    <p>
-                        任職於台灣大型集團旗下關係企業，擔任經營層幕僚超過 20 年，歷任董事長特助、經營企劃主管及企業內部講師。從企業策略、人才發展到組織變動，近距離參與經營決策現場，理解企業如何評估人才、配置資源與放大價值。
-                    </p>
-                    <p>
-                        受訓於國際企業家導師 Dan Lok，取得高價值溝通與高單價成交教練資格，將企業端的人才判斷，轉化為每個人都能運用的定位與價值溝通方法；並結合 NLP，將思維、行為與成果之間的連動關係，轉化為系統化工具。
-                    </p>
-                    <p class="text-xs sm:text-sm text-gray-400 pt-2 border-t border-gray-800">
-                        <strong class="text-gold">專業學經歷與認證：</strong>國立臺灣師範大學 EMBA，東吳大學日本語文學系、國際貿易學系雙學士。具美國人力資源認證協會（HR Certification Institute, HRCI）全球人力資源管理師（GPHR®）、美國神經語言程式學委員會（The American Board of Neuro-Linguistic Programming, ABNLP）NLP 專業執行師、勞動部就業服務乙級技術士（特許就業服務專業人員資格），並擔任 104 人力銀行 Giver 職涯志工。
-                    </p>
-                </div>
-            </div>
+<div class="calc">
+<button type="button" class="btn btn-gold" id="calcToggle" aria-expanded="false" aria-controls="calcPanel">算算貴公司的</button>
+<div class="calc-panel" id="calcPanel" hidden>
+<p class="calc-step">第一步｜您想試算哪一個職位？</p>
+<div class="calc-role" role="radiogroup" aria-label="試算職位">
+<label><input type="radio" name="c-role" value="s"/><span><b>業務</b><small>一位業務離職，公司要付出的成本</small></span></label>
+<label><input type="radio" name="c-role" value="m"/><span><b>業務主管</b><small>一位業務主管離職，公司要付出的成本</small></span></label>
+</div>
+<div id="calcBody" hidden>
+<p class="calc-step">第二步｜填入<span id="c-role-name"></span>的實際數字<span class="calc-step-sub">（金額單位：萬元，結果會即時更新）</span></p>
+<div class="calc-inputs">
+<label class="calc-field"><span>月薪</span><span class="calc-in"><input type="number" id="c-pay" value="5" min="0" step="0.1" inputmode="decimal"/><em>萬</em></span></label>
+<label class="calc-field"><span>車馬津貼（每月）</span><span class="calc-in"><input type="number" id="c-car" value="0.3" min="0" step="0.1" inputmode="decimal"/><em>萬</em></span></label>
+<label class="calc-field"><span>招募與訓練費用</span><span class="calc-in"><input type="number" id="c-rec" value="5" min="0" step="0.5" inputmode="decimal"/><em>萬</em></span><small id="c-rec-hint">刊登、面試時間、新人訓練</small></label>
+<label class="calc-field"><span>該員每月設定的業績毛利</span><span class="calc-in"><input type="number" id="c-gp" value="20" min="0" step="0.5" inputmode="decimal"/><em>萬</em></span><small id="c-gp-hint">職缺空著時，這部分業績就做不到</small></label>
+<label class="calc-field"><span>職缺空窗期</span><span class="calc-in"><input type="number" id="c-days" value="40" min="0" step="1" inputmode="numeric"/><em>天</em></span><small>從離職到新人到職</small></label>
+</div>
+<div class="cmp-wrap">
+<table class="cmp cmp-cost calc-out">
+<tbody>
+<tr><th scope="row">薪資福利：<span class="ph">年薪 ×（1＋法定福利）</span><span class="ph">＋車馬津貼</span></th><td class="num" id="o-r1"></td></tr>
+<tr><th scope="row">招募與訓練</th><td class="num" id="o-r2"></td></tr>
+<tr><th scope="row">空窗損失：<span class="ph">該員每月業績毛利 × 空窗期</span></th><td class="num" id="o-r3"></td></tr>
+<tr class="total"><th scope="row" id="o-tlabel">合計</th><td class="num" id="o-t"></td></tr>
+</tbody>
+</table>
+</div>
+<div class="calc-hidden">
+<p class="calc-hidden-title">以上還不包含<span class="ph">這些看不見的成本</span></p>
+<ul>
+<li>新人上手期，業績還沒到位的落差</li>
+<li>主管異動時，整個團隊的業績下滑</li>
+<li>主管離職，部屬跟著走的連鎖離職</li>
+<li>客戶名單流失、客戶信賴與口碑</li>
+</ul>
+<p>這些往往才是最大的一塊，只是很難算進報表裡。</p>
+</div>
+<p class="fine">法定福利依 2026 年雇主負擔勞保、就保、健保、勞退、職災（業務約 19%、主管約 18%）。</p>
+</div>
+</div>
+</div>
+<div class="mishire">
+<h3 class="mishire-title">錯聘，不一定會離職。<br/><span class="ph">但留下來的代價，可能比離職更大。</span></h3>
+<p class="mishire-lead"><b>74%</b> 將近四分之三的雇主，都曾聘錯人。<span class="cycle-src" style="display:inline; margin-left:6px;"><a href="https://prn.to/2IYDMdP" rel="noopener" target="_blank">CareerBuilder ↗</a></span></p>
+<p class="mishire-close">離職的成本算得出來；但錯的人不走，團隊人心流失、對的人因此離開，才是最難挽回的。</p>
+<div class="mishire-stats">
+<div><b>17%</b><p>主管約有 17% 的時間，花在管理表現不佳的員工，等於每週快一天。</p><span class="cycle-src"><a href="https://www.shrm.org/topics-tools/news/talent-acquisition/morale-productivity-suffer-bad-hires" rel="noopener" target="_blank">Robert Half（SHRM 報導）↗</a></span></div>
+<div><b>56%</b><p>過半的用人主管表示，錯聘讓團隊離職率升高；最先撐不住的，常常是原本表現好的人。</p><span class="cycle-src"><a href="https://www.hrreporter.com/focus-areas/recruitment-and-staffing/what-are-the-biggest-mistakes-made-by-hiring-managers/392793" rel="noopener" target="_blank">Robert Half（HR Reporter 報導）↗</a></span></div>
+</div>
+</div>
+</div>
+</section>
 
-        </div>
-    </section>
+<!-- 體驗申請 -->
+<section class="section founding">
+<div class="wrap">
+<div class="founding-box">
+<span class="eyebrow">體驗申請</span>
+<h2>免費業務團隊健檢乙次</h2>
+<p>30～45 分鐘線上對談，陪您釐清業務團隊卡在哪裡：選人、帶人、留人，還是經驗傳承。不需要任何合作承諾。</p>
+<a class="btn btn-gold" href="#book">申請對談</a>
+</div>
+</div>
+</section>
 
-    <!-- ================= 3. 暢銷新書特區 (Book Showcase) ================= -->
-    <section id="book" class="py-20 bg-gradient-to-b from-obsidian via-surface/60 to-obsidian border-t border-b border-gold/15 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center max-w-3xl mx-auto mb-14">
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-4">
-                    暢銷商業新書《<span class="text-gold">把資歷變資產</span>》
-                </h2>
-                <p class="text-gold font-medium text-base sm:text-lg">
-                    做過的事，是資歷；能被持續運用、重新組合與放大，才會成為資產。
-                </p>
-            </div>
+<section class="section" id="process" style="background:#FBF9F5;">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow"><span class="phw"><span class="ph">對談流程</span></span></span>
+<h2><span class="phw"><span class="ph">不是先決定導入工具，</span></span><br/><span class="phw"><span class="ph">而是先確認真正需要處理的問題。</span></span></h2>
+</div>
+<div class="timeline">
+<div class="tl-step">
+<span class="tl-num">01</span>
+<div><h4><span class="phw"><span class="ph">填寫企業現況</span></span></h4><p><span class="phw"><span class="ph">提供公司與團隊規模、</span><span class="ph">目前的人才課題、</span><span class="ph">涉及職位，</span><span class="ph">以及已使用的測評或人才制度。</span></span></p></div>
+</div>
+<div class="tl-step">
+<span class="tl-num">02</span>
+<div><h4><span class="phw"><span class="ph">進行線上對談</span></span></h4><p><span class="phw">以30～45分鐘了解問題目前如何被看見、<span class="ph">現有資料能回答什麼，</span><span class="ph">以及還缺少哪些關鍵資訊。</span></span></p></div>
+</div>
+<div class="tl-step">
+<span class="tl-num">03</span>
+<div>
+<h4><span class="phw"><span class="ph">提出下一步建議</span></span></h4>
+<p>可能結果：</p>
+<ul>
+<li><span class="phw">暫時不需<span class="ph">要導入評測</span></span></li>
+<li><span class="phw">先釐清職務<span class="ph">或管理問題</span></span></li>
+<li><span class="phw">選擇小規模對象進行<span class="ph">評測與解讀</span></span></li>
+<li><span class="phw"><span class="ph">進一步規劃人才盤點、</span><span class="ph">團隊或接班應用</span></span></li>
+</ul>
+</div>
+</div>
+</div>
+<div style="text-align:center; margin-top:48px;">
+<a class="btn btn-outline-ink" href="#book"><span class="phw"><span class="ph">進一步了解</span></span></a>
+</div>
+</div>
+</section>
+<!-- 合作夥伴 -->
+<section class="section" id="partners" style="background:#FBF9F5;">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">給評測教練、管顧與企業講師</span>
+<h2>我們不是競爭，<span class="ph">是接力。</span></h2>
+</div>
+<p class="section-lead">您很懂測評、很會上課，客戶也信任您。但報告交出去、課程結束之後，常常卡在同一個地方：</p>
+<div class="grid-3">
+<div class="card quote-card"><span class="n">01</span><h3>「報告交了，客戶問：然後呢？」</h3><p>主管看懂了報告，卻不知道明天要對部屬說什麼。</p></div>
+<div class="card quote-card"><span class="n">02</span><h3>「學員上完課，回到工作崗位又打回原形。」</h3><p>回到現場沒有人帶，制度也沒跟著調整。</p></div>
+<div class="card quote-card"><span class="n">03</span><h3>「客戶要的是<span class="ph">解決方案與可見的成果，</span><span class="ph">不只是一份分析。」</span></h3><p>老闆最後問的，永遠是：業務團隊有沒有更會賣？</p></div>
+</div>
+<div class="grid-2" style="margin-top:32px;">
+<div class="card"><h3>您負責的</h3><p>評測、報告解讀、既有課程與客戶關係。您的工具不需要換，客戶仍然是您的客戶。再搭配動態管理工具，和客戶建立更長期穩固的關係，您的建議也能更精準。</p></div>
+<div class="card"><h3>Ginger 接力的</h3><p>NLP 複製卓越，把頂尖業務的心法拆出來；主管一對一現場演練；高單價成交訓練；升遷雙軌等制度建議，讓老闆拍板、團隊做得到。</p></div>
+</div>
+<div class="hero-actions" style="justify-content:center; margin-top:32px;">
+<a class="btn btn-gold" href="#book">洽談合作</a>
+<a class="btn btn-outline-ink" href="https://line.me/R/ti/p/@elites888" rel="noopener" target="_blank">LINE @elites888</a>
+</div>
+</div>
+</section>
 
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-                <!-- 3D立體書封展示 -->
-                <div class="lg:col-span-5 flex justify-center">
-                    <div class="relative group max-w-xs sm:max-w-sm">
-                        <!-- 金色柔光 -->
-                        <div class="absolute -inset-2 bg-gradient-to-r from-gold/40 to-yellow-600/20 rounded-2xl blur-xl opacity-70 group-hover:opacity-100 transition duration-500"></div>
-                        <img src="book_3d_cover.png" alt="《把資歷變資產》3D立體書封" class="relative w-full h-auto drop-shadow-2xl transform group-hover:scale-105 transition duration-500">
-                    </div>
-                </div>
+<section class="section" id="faq">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow">常見問題</span>
+<h2>您可能想先知道</h2>
+</div>
+<div class="faq">
+<details name="faq-group">
+<summary>可以只使用 Ginger 的服務，不做行為評測嗎？<span class="plus"></span></summary>
+<p class="faq-body">可以。例如企業內訓或工作坊、複製頂尖業務的成交心法、高單價成交訓練，都可以單獨進行。差別在於少了行為數據，選人、升主管與帶人的客觀判斷，會更依賴現場觀察與訪談。</p>
+</details>
+<details name="faq-group">
+<summary>行為數據工具加上 Ginger 的陪跑，跟單獨做評測有什麼不同？<span class="plus"></span></summary>
+<p class="faq-body">單獨做評測，企業拿到的是一份報告，接下來要靠企業自己落實。結合 Ginger，您將會得到這幾件事：</p>
+<ul class="faq-list">
+<li><strong>幫主管問對問題</strong>：運用 NLP 的提問框架，把「他很不積極」這種抽象評價，換成具體的事實，讓建議更精準。</li>
+<li><strong>陪主管把話說出口</strong>：結合高單價成交教練的實戰訓練，以及日本 KOZU Style 專業形象顧問的專業，現場演練一對一，修正語氣、時機與肢體表達。</li>
+<li><strong>換成貴公司聽得進去的做法</strong>：以 20 年經營層幕僚的經驗，配合公司文化與企業主的期待調整。</li>
+<li><strong>獎金與升遷路徑的調整建議</strong>：以 GPHR® 全球人力資源管理師的專業，提出升遷雙軌、「首席業務」等制度建議，必要時與薪酬專業顧問協作。</li>
+<li><strong>補上成交力</strong>：以 NLP 複製卓越策略找出頂尖業務的成交心法，再放進高單價成交架構，讓團隊學得會。</li>
+</ul>
+</details>
+<details name="faq-group">
+<summary>直接問通用 AI，不就好了？<span class="plus"></span></summary>
+<p class="faq-body">通用 AI 只能根據主管描述的內容回答，不認識這位成員，而且容易順著提問者的看法附和，給的多半是通用建議。行為數據則以這位成員本人的資料為基礎，不會因為誰問而改變。另外，員工的個資、績效或家庭狀況，也不適合貼到公開的 AI 平台。</p>
+<p class="faq-body">更重要的是，每一次評測與輔導紀錄，都會累積成企業自己的人才數據：誰適合什麼位置、怎麼帶最有效、誰正在成長。培養資產型人才，靠的是長期累積的數據，而不是每次憑感覺重新開始。</p>
+</details>
+<details name="faq-group">
+<summary>為什麼要用行為科學，而不是看履歷和面試就好？<span class="plus"></span></summary>
+<p class="faq-body">履歷記錄的是一個人做過什麼，面試看到的是他當下怎麼表達。整合數十年選才研究的分析發現，和工作直接相關、以「在工作中會怎麼做」為出發點的評量，預測力明顯較高。行為科學評測看的，正是一個人在工作情境中的行為傾向。</p>
+</details>
+<details name="faq-group">
+<summary>行為數據和一般性格測驗有什麼不同？<span class="plus"></span></summary>
+<p class="faq-body">一般性格測驗，多半擅長描述一個人是什麼類型、溝通風格如何。我們採用的行為數據工具，差別在三個地方：</p>
+<ul class="faq-list">
+<li><strong>專為業務型團隊設計</strong>：以公司自己的頂尖業務為標準，比對應徵者與升遷人選，直接對應業績與成交。</li>
+<li><strong>不只看「他是誰」</strong>：同時看他自然的樣子，以及他認為工作要求他的樣子，用兩者的差距看出壓力、適應與離職風險，而不是貼一個類型標籤。</li>
+<li><strong>不只是一份報告</strong>：從評測、一對一建議到後續追蹤，讓數據真正用在每天的帶人現場，並隨時間動態更新。</li>
+</ul>
+</details>
+<details name="faq-group">
+<summary>行為評測可以直接判斷一個人是否適任嗎？<span class="plus"></span></summary>
+<p class="faq-body">不建議用任何單一測評斷定人才是否適任。行為數據提供的是和工作動機相關的資料，仍需搭配職務要求、專業能力、績效證據、結構化面談，以及 HR 與用人主管的判斷。</p>
+</details>
+<details name="faq-group">
+<summary>行為科學的數據多來自歐美，適合華人企業嗎？<span class="plus"></span></summary>
+<p class="faq-body">華人看人，從來不是非黑即白的二分法。《易經》談了數千年的陰陽變化，儒家講中庸，關注的都是一個人如何因時因地調整自己。我們採用的工具正好接近這種看法：請受測者從一組形容詞中，挑出最符合自己的詞，看的是一個人在不同情境下如何動態調整，而不是把人一次歸類。這種「強迫選擇」的作答方式，也是心理測量學界用來降低不同文化作答習慣差異的方法之一。而且比對的標準，是貴公司自己的頂尖業務。文化差異仍需留意，解讀時會搭配台灣職場的實際情境。</p>
+</details>
+<details name="faq-group">
+<summary>評測需要多久？有中文介面嗎？<span class="plus"></span></summary>
+<p class="faq-body">評測時間不長，題目採選詞形式作答，建議在不被打斷的情況下完成。提供中文介面。</p>
+</details>
+<details name="faq-group">
+<summary>導入費用很高嗎？<span class="plus"></span></summary>
+<p class="faq-body">費用依團隊規模與需求規劃，對談後會提供具體建議。比起投資金額，更值得先釐清的是：一次錯誤招募、一次錯誤升遷，或一位關鍵人才的流失，實際會讓您付出多少成本。您可以先參考上方的台灣版試算。</p>
+</details>
+<details name="faq-group">
+<summary>有免費的體驗嗎？<span class="plus"></span></summary>
+<p class="faq-body">現在預約，可獲免費「業務團隊健檢」乙次（30～45 分鐘），陪您釐清業務團隊卡在選人、帶人、留人，還是經驗傳承。不需要任何合作承諾。</p>
+</details>
+<details name="faq-group">
+<summary>頂尖業務會不會不願意分享？<span class="plus"></span></summary>
+<p class="faq-body">會，這是人之常情。所以我們不要求他無私，而是讓分享對他更有利：帶人有回報、傳承有舞台。</p>
+</details>
+<details name="faq-group">
+<summary>預約線上對談，會被推銷嗎？<span class="plus"></span></summary>
+<p class="faq-body">不會。對談會先了解您目前的人才課題、企業規模與既有制度，協助釐清問題出在能力、管理方式，還是人才配置。只有在評測確實能補足現有資訊時，才會討論後續應用方式。</p>
+</details>
+<details name="faq-group">
+<summary>評測資料會如何被使用？能與公司原本的系統整合嗎？<span class="plus"></span></summary>
+<p class="faq-body">資料僅用於約定的評測、解讀與人才管理討論，不會在未經同意的情況下提供給無關第三方。若正式導入，企業也應事先向參與者說明評測目的、使用範圍與資料保存方式。系統整合方式，會在對談中依貴公司現有系統確認。</p>
+</details>
+<details name="faq-group">
+<summary>我們已經在用其他測評（例如 DISC、Hogan），還需要嗎？<span class="plus"></span></summary>
+<p class="faq-body">不需要換。一次測評像一張快照，看得到當下；但人會變，換主管、換職務、家裡有變化，半年後可能完全不同。Ginger 的角色是讓既有的報告真正用到帶人現場，必要時再以行為數據持續追蹤，兩者相輔相成。</p>
+</details>
+<details name="faq-group">
+<summary>我是評測教練或管理顧問，可以怎麼合作？<span class="plus"></span></summary>
+<p class="faq-body">您負責評測與解讀，Ginger 接力落地：複製頂尖業務的成交心法、主管一對一演練、高單價成交訓練與制度建議。可以互相引薦、聯合提案，或分工交付；客戶關係仍然是您的。請在表單「目前最希望處理的課題」選擇「評測／顧問合作」，或直接私訊 LINE @elites888。</p>
+</details>
+</div>
+</div>
+</section>
 
-                <!-- 書籍精華：G.A.M.E. 職涯賽局法則與適用對象 -->
-                <div class="lg:col-span-7">
-                    <div class="luxury-card p-6 sm:p-8 rounded-2xl">
-                        
-                        <!-- 核心心法：G.A.M.E. 職涯賽局法則 -->
-                        <div class="mb-7">
-                            <h3 class="font-serif text-lg sm:text-xl font-bold text-white mb-2 flex items-center gap-2">
-                                <i class="fas fa-chess-queen text-gold"></i> 關於 G.A.M.E. 職涯賽局法則
-                            </h3>
-                            <p class="text-xs sm:text-sm text-gray-300 leading-relaxed mb-4">
-                                一套讓資歷持續增值的 G.A.M.E. 職涯賽局法則，帶你從評估、配置、倍增到擴張，將零散的經驗，轉化為能持續創造價值的資產：
-                            </p>
-                            
-                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">G — Gauge ｜ 評估籌碼</div>
-                                    <p class="text-xs text-gray-300 mt-1">經驗的價值，不在於做過多少，而在於現在還值多少。</p>
-                                </div>
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">A — Allocate ｜ 配置組合</div>
-                                    <p class="text-xs text-gray-300 mt-1">資源的價值，不在於擁有多少，而在於能否配置出加乘效果。</p>
-                                </div>
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">M — Multiply ｜ 倍增估值</div>
-                                    <p class="text-xs text-gray-300 mt-1">價值的倍增，不在於用力推銷自己，而在於讓對的人主動選擇你。</p>
-                                </div>
-                                <div class="p-3 rounded-xl bg-surface border border-gray-800">
-                                    <div class="font-bold text-gold text-xs sm:text-sm">E — Expand ｜ 自動擴張</div>
-                                    <p class="text-xs text-gray-300 mt-1">資產的擴張，不在於一個人持續累積，而在於帶動更多人共同創造。</p>
-                                </div>
-                            </div>
-                        </div>
+<section class="cta-final">
+<div class="wrap">
+<h2><span class="phw"><span class="ph">在投入更多招募、</span><span class="ph">培育與留才成本以前，</span></span><br/><span class="phw"><span class="ph">先確認問題到底在哪裡。</span></span></h2>
+<p class="lead"><span class="phw">如果您還不確定，現在面對的是能力問題、管理問題，還是人才配置問題，可以先透過一場線上對談，整理現況與需要補<span class="ph">足的資訊。</span></span></p>
+<a class="btn btn-gold" href="#book">預約線上對談</a>
+<p class="below"><span class="phw"><span class="ph">適合業績集中在少數人、</span><span class="ph">正面臨主管升遷、</span><span class="ph">關鍵招募或經驗傳承課題的企業；</span><span class="ph">也歡迎評測教練、管顧與企業講師洽談合作。</span></span></p>
+<p class="trust"><span class="phw">您提供的資料只用於本次需求判斷與對談安排；未經同意，不會提供給其他單位，也不會以評測結果取代企業的<span class="ph">用人判斷。</span></span></p>
+</div>
+</section>
+<!-- 預約表單 -->
+<section class="section" id="book">
+<div class="wrap">
+<div class="section-head">
+<span class="eyebrow"><span class="phw"><span class="ph">預約表單</span></span></span>
+<h2>留下資訊，<span class="ph">與您進一步對談。</span></h2>
+</div>
+<form action="https://formsubmit.co/gingerlin0919@gmail.com" class="form-card" id="bookingForm" method="POST" novalidate="">
+<input name="_subject" type="hidden" value="【業務團隊健檢】新的預約對談申請"/>
+<input name="_template" type="hidden" value="table"/>
+<input name="_captcha" type="hidden" value="false"/>
+<div class="field"><label for="f-name">姓名</label><input id="f-name" name="name" required="" type="text"/></div>
+<div class="field"><label for="f-company">公司名稱</label><input id="f-company" name="company" required="" type="text"/></div>
+<div class="field"><label for="f-title">職稱</label><input id="f-title" name="title" required="" type="text"/></div>
+<div class="field"><label for="f-email">Email</label><input id="f-email" name="email" required="" type="email"/></div>
+<div class="field"><label for="f-phone">聯絡電話 <span class="opt"><span class="phw"><span class="ph">（選填）</span></span></span></label><input id="f-phone" name="phone" type="tel"/></div>
+<div class="field">
+<label for="f-lang">偏好語言</label>
+<select id="f-lang" name="language" required="">
+<option disabled="" selected="" value="">請選擇</option>
+<option>中文</option>
+<option>英文</option>
+</select>
+</div>
+<div class="field">
+<label for="f-size">公司人數</label>
+<select id="f-size" name="size" required="">
+<option disabled="" selected="" value="">請選擇</option>
+<option>50人以下</option>
+<option>50～99人</option>
+<option>100～249人</option>
+<option>250～499人</option>
+<option>500人以上</option>
+</select>
+</div>
+<div class="field full">
+<label for="f-topic"><span class="phw">目前最希望處理<span class="ph">的人才課題</span></span></label>
+<select id="f-topic" name="topic" required="">
+<option disabled="" selected="" value="">請選擇</option>
+<option>業績只靠少數人</option>
+<option>業務主管升遷</option>
+<option>業務招募</option>
+<option>主管不知道怎麼帶人</option>
+<option>關鍵人才盤點</option>
+<option>接班布局</option>
+<option>招募與適配</option>
+<option>主管培育</option>
+<option>團隊衝突</option>
+<option>留才與投入感</option>
+<option>組織調整</option>
+<option>評測／顧問合作</option>
+<option>其他</option>
+</select>
+</div>
+<div class="field full"><label for="f-desc"><span class="phw">請簡述<span class="ph">目前的情況</span></span></label><textarea id="f-desc" name="description" required=""></textarea></div>
+<div class="field full">
+<label for="f-used"><span class="phw">是否使用過<span class="ph">人才測評？</span></span></label>
+<select id="f-used" name="used" required="">
+<option disabled="" selected="" value="">請選擇</option>
+<option>尚未使用</option>
+<option>曾經使用</option>
+<option>目前持續使用</option>
+</select>
+</div>
+<div class="field full">
+<label for="f-time1">近一個月內您方便會談的三個時間 <span class="opt"><span class="phw"><span class="ph">（請依優先順序填寫）</span></span></span></label>
+<div class="time-slots">
+<input id="f-time1" name="time1" placeholder="優先順序 1，例如：8/25（二）下午2:00–3:00" required="" type="text"/>
+<input id="f-time2" name="time2" placeholder="優先順序 2" required="" type="text"/>
+<input id="f-time3" name="time3" placeholder="優先順序 3" required="" type="text"/>
+</div>
+</div>
+<label class="consent">
+<input id="f-consent" name="consent" required="" type="checkbox"/>
+<span><span class="phw">我同意所提供的資料僅用於本次需求判斷、<span class="ph">對談安排與必要聯繫，</span><span class="ph">並已閱讀</span></span><a href="/privacy.html" rel="noopener" target="_blank"><span class="phw"><span class="ph">隱私權政策</span></span></a>。</span>
+</label>
+<!-- dev note: submits via FormSubmit.co (AJAX endpoint, no page reload) to gingerlin0919@gmail.com.
+             IMPORTANT one-time step: the first submission after this form goes live triggers FormSubmit to send
+             an "Activate Form" confirmation email to gingerlin0919@gmail.com — until that link is clicked,
+             submissions will not be delivered. Submit one test entry after launch and check that inbox (and spam). -->
+<div class="form-msg" id="formMsg" role="status">謝謝您! 完成送單，我們會在一週內與您聯繫，確認線上面談時間及與會人員。若有任何疑問，請email給Ginger：<a href="mailto:gingerlin0919@gmail.com" style="color:var(--ink-2); text-decoration:underline;">gingerlin0919@gmail.com</a></div>
+<div class="form-msg" id="formErr" role="alert" style="border-left-color:#9c3b3b; background:rgba(156,59,59,0.08);">送出時發生問題，麻煩直接email給Ginger：<a href="mailto:gingerlin0919@gmail.com" style="color:var(--ink-2); text-decoration:underline;">gingerlin0919@gmail.com</a>，並附上您方便的聯絡方式，謝謝您的耐心。</div>
+<div class="form-submit"><button class="btn btn-gold" type="submit">送出資料並預約線上對談</button></div>
+</form>
+</div>
+</section>
+</main>
+<div class="sticky-cta">
+<a class="btn btn-gold" href="#book"><span class="phw"><span class="ph">預約對談</span></span></a>
+</div>
+<footer>
+<div class="wrap">
+<div class="foot-top">
+<div>
+<div class="foot-name">Ginger Lin 林逸蓁</div>
+<div class="foot-role">《把資歷變資產》作者｜20+ 年企業經營層幕僚</div>
+<div class="foot-contact"><a href="https://line.me/R/ti/p/@elites888" rel="noopener" target="_blank">LINE 官方帳號 @elites888</a><a href="https://ginger.elites888.com" rel="noopener" target="_blank">Ginger 個人品牌網站</a></div>
+</div>
+<div class="foot-links">
+<a href="https://book.elites888.com" rel="noopener" target="_blank"><span class="phw"><span class="ph">《把資歷變資產》</span></span></a>
+<a href="/privacy.html"><span class="phw"><span class="ph">隱私權政策</span></span></a>
+<a href="mailto:gingerlin0919@gmail.com"><span class="phw"><span class="ph">亞洲聯繫窗口：</span>gingerlin0919@gmail.com</span></a>
+</div>
+</div>
+<p class="foot-note"><span class="phw">本頁內容用於人才管理教育與對談說明，評測結果僅供參考，不取代企業的<span class="ph">用人決策。</span></span></p>
+</div>
+</footer>
+<script>
+  (function(){
+    var nav = document.getElementById('siteNav');
+    var onScroll = function(){
+      if (window.scrollY > 40) nav.classList.add('scrolled');
+      else nav.classList.remove('scrolled');
+    };
+    document.addEventListener('scroll', onScroll, {passive:true});
+    onScroll();
 
-                        <!-- 適用對象清單 -->
-                        <div class="mb-8 p-4 rounded-xl bg-black/40 border border-gold/20">
-                            <div class="text-xs font-bold text-gold uppercase tracking-wider mb-2.5 flex items-center gap-1.5">
-                                <i class="fas fa-check-double"></i> 本書適合正在思考以下問題的你
-                            </div>
-                            <div class="space-y-1.5 text-xs sm:text-sm text-gray-300">
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>工作多年、累積不少，卻還沒有轉化為清楚可見的價值</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>準備承擔更重要的角色，希望重新配置時間、能力與資源</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>想在既有基礎上發展第二價值曲線，卻不知道該從何開始</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>面對 AI 與環境變動，想找到能夠長期增值的能力</span>
-                                </div>
-                                <div class="flex items-start gap-2">
-                                    <span class="text-gold font-bold">✓</span>
-                                    <span>正在培育關鍵人才、布局接班，希望打造資產型人才團隊</span>
-                                </div>
-                            </div>
-                        </div>
+    var toggle = document.getElementById('navToggle');
+    var links = document.getElementById('navLinks');
+    toggle.addEventListener('click', function(){
+      var open = links.classList.toggle('open');
+      toggle.classList.toggle('open', open);
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    links.querySelectorAll('a').forEach(function(a){
+      a.addEventListener('click', function(){
+        links.classList.remove('open');
+        toggle.classList.remove('open');
+        toggle.setAttribute('aria-expanded', 'false');
+      });
+    });
 
-                        <!-- 購書與共學雙行動按鈕 -->
-                        <div class="flex flex-col sm:flex-row gap-4">
-                            <a href="https://book.elites888.com" target="_blank" class="flex-1 text-center py-3.5 px-6 rounded-xl font-bold btn-gold-primary flex items-center justify-center gap-2">
-                                <i class="fas fa-shopping-cart"></i>
-                                立即搶讀新書 (專屬推薦頁)
-                            </a>
-                            <a href="https://workshop.elites888.com/" target="_blank" class="flex-1 text-center py-3.5 px-6 rounded-xl font-bold btn-gold-secondary flex items-center justify-center gap-2">
-                                <i class="fas fa-users-crown text-gold"></i>
-                                了解一日工作坊與共學群
-                            </a>
-                        </div>
-                        <p class="text-center text-xs text-gray-400 mt-2.5">
-                            * 新書讀者完成一日工作坊後，可取得「資產升級共學群」入群面談資格
-                        </p>
+    // FAQ: ensure only one open at a time (native <details name> already does this in modern browsers;
+    // this is a fallback for browsers without radio-group <details> support)
+    var faqItems = document.querySelectorAll('.faq details');
+    faqItems.forEach(function(d){
+      d.addEventListener('toggle', function(){
+        if (d.open) {
+          faqItems.forEach(function(other){ if (other !== d) other.open = false; });
+        }
+      });
+    });
 
-                    </div>
-                </div>
-            </div>
+    // Booking form: validates, then submits via FormSubmit.co's AJAX endpoint (no page reload)
+    // and emails the result to gingerlin0919@gmail.com. See dev note in the HTML above the form
+    // about the one-time "Activate Form" email FormSubmit sends on first use.
+    var form = document.getElementById('bookingForm');
+    var msg = document.getElementById('formMsg');
+    var errMsg = document.getElementById('formErr');
+    var submitBtn = form.querySelector('button[type="submit"]');
+    var submitBtnDefaultText = submitBtn.textContent;
 
-            <!-- 企業領袖與跨界專家共同推薦 (全名全頭銜完整呈現) -->
-            <div class="mt-14 luxury-card p-6 sm:p-8 rounded-2xl border-t-2 border-t-gold/70">
-                <div class="text-center mb-6">
-                    <h3 class="font-serif text-xl sm:text-2xl font-bold text-white">
-                        企業領袖與跨界專家<span class="nw">共同推薦</span>
-                    </h3>
-                </div>
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      msg.classList.remove('show');
+      errMsg.classList.remove('show');
+      if (!form.checkValidity()) {
+        form.reportValidity();
+        return;
+      }
+      submitBtn.disabled = true;
+      submitBtn.textContent = '送出中…';
 
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 text-xs sm:text-sm text-gray-300">
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">蘇一仲</strong>
-                        <span class="text-gray-400 text-xs">和泰興業股份有限公司會長</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">Dan Lok 駱鋒</strong>
-                        <span class="text-gray-400 text-xs">華裔全球商業策略家 Dragon 100 創始人 & Certainty Capitalist</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">林修禾</strong>
-                        <span class="text-gray-400 text-xs">美股價值投資 BOS 巴菲特線上學院創辦人</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">何飛鵬</strong>
-                        <span class="text-gray-400 text-xs">城邦出版集團創辦人</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">林明樟（MJ）</strong>
-                        <span class="text-gray-400 text-xs">連續創業家暨兩岸三地上市公司指名度最高的頂尖財報職業講師</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">郝旭烈（郝哥）</strong>
-                        <span class="text-gray-400 text-xs">郝聲音 YT 播客主持人</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">老獅說 Lion</strong>
-                        <span class="text-gray-400 text-xs">知名個人 IP 教練</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">陳欣怡</strong>
-                        <span class="text-gray-400 text-xs">安馨傳誠家族辦公室 總經理</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">Hogan Lee</strong>
-                        <span class="text-gray-400 text-xs">華人 NLP 暨催眠推廣教育中心執行長與<span class="nw">首席講師</span></span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition">
-                        <strong class="text-white font-bold block text-sm mb-0.5">王國欽</strong>
-                        <span class="text-gray-400 text-xs">臺灣師範大學運動休閒與餐旅管理研究所教授</span>
-                    </div>
-                    <div class="p-3.5 rounded-xl bg-surface border border-gray-800 hover:border-gold/40 transition md:col-span-2 lg:col-span-2">
-                        <strong class="text-white font-bold block text-sm mb-0.5">孫弘岳</strong>
-                        <span class="text-gray-400 text-xs">臺灣師範大學科技人資系教授、國際人力資源認證協會 IHRCI 榮譽董事</span>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-    </section>
-
-    <!-- ================= 4. 雙軌旗艦服務專區 (Flagship Solutions) ================= -->
-    <section id="services" class="py-20 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white mb-4">
-                    雙軌賦能體系：<span class="text-gold">個人精進 ＆ 企業賦能</span>
-                </h2>
-                <p class="text-gray-300 text-base">
-                    從職場工作者的職涯資產盤點，到企業負責人的頂尖人才複製體系，提供最落地的實戰解決方案。
-                </p>
-            </div>
-
-            <!-- 兩大軌道並行展示卡 -->
-            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
-                
-                <!-- 軌道 1：給職場工作者 (一日工作坊) -->
-                <div id="pro-workshop" class="luxury-card rounded-2xl p-7 sm:p-8 flex flex-col justify-between border-t-4 border-t-gold/70">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 rounded-full text-xs font-bold bg-gold/15 text-gold border border-gold/30">
-                                給職場工作者 ｜ 菁英定位
-                            </span>
-                            <span class="text-xs text-gray-400"><i class="fas fa-clock text-gold mr-1"></i> 精實一日沉浸</span>
-                        </div>
-                        
-                        <h3 class="font-serif text-2xl font-bold text-white mb-3">
-                            【一日工作坊】盤點職涯資產，完成 90 日行動計畫
-                        </h3>
-                        
-                        <p class="text-gold text-sm font-semibold mb-5 leading-relaxed">
-                            「用一天盤點已累積的職涯資產，親手完成具備第 30 / 60 / 90 天檢核點的行動計畫，回到工作崗位就能開始執行。」
-                        </p>
-
-                        <div class="space-y-3.5 mb-8 text-sm text-gray-300">
-                            <div class="flex items-start gap-2.5">
-                                <i class="fas fa-check-circle text-gold mt-1"></i>
-                                <span><strong>職涯資產盤點：</strong>看清自己已經累積了哪些經驗與能力，找出最值得放大的那一項。</span>
-                            </div>
-                            <div class="flex items-start gap-2.5">
-                                <i class="fas fa-check-circle text-gold mt-1"></i>
-                                <span><strong>90 日行動計畫：</strong>現場產出專屬於你的 30 / 60 / 90 天具體行動檢核點。</span>
-                            </div>
-                            <div class="flex items-start gap-2.5">
-                                <i class="fas fa-check-circle text-gold mt-1"></i>
-                                <span><strong>高階幕僚視角：</strong>理解經營者如何看待價值，讓你的投入與團隊目標對齊，被看見也被重用。</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a href="https://workshop.elites888.com" target="_blank" class="w-full text-center py-3.5 px-6 rounded-xl font-bold btn-gold-secondary flex items-center justify-center gap-2 group">
-                            <span><span class="nw">了解一日工作坊</span><span class="nw">課表與最新梯次</span></span>
-                            <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition duration-300"></i>
-                        </a>
-                    </div>
-                </div>
-
-                <!-- 軌道 2：給企業主管 (資產型業務團隊複製體系) -->
-                <div id="enterprise-solution" class="luxury-card rounded-2xl p-7 sm:p-8 flex flex-col justify-between border-t-4 border-t-emeraldBorder bg-gradient-to-b from-[#0c1814] to-surface">
-                    <div>
-                        <div class="flex items-center justify-between mb-4">
-                            <span class="px-3 py-1 rounded-full text-xs font-bold bg-emeraldTone text-[#6ee7b7] border border-emeraldBorder">
-                                <span class="nw">給企業主管與負責人 ｜</span> <span class="nw">團隊高產值</span>
-                            </span>
-                            <span class="text-xs text-gold font-semibold"><i class="fas fa-crown mr-1"></i> 複製前 5% 頂尖人才</span>
-                        </div>
-                        
-                        <h3 class="font-serif text-2xl font-bold text-white mb-3">
-                            【資產型團隊複製體系】打造高產值團隊
-                        </h3>
-                        
-                        <p class="text-[#a7f3d0] text-sm font-semibold mb-5 leading-relaxed">
-                            適合企業負責人、業務總監與團隊領袖。透過複製前 5% 優秀人才，打造高產值業務體系。結合國際頂級資源為企業提供真正的「業績與人才解方」：
-                        </p>
-
-                        <!-- 三大國際核心支柱 -->
-                        <div class="space-y-4 mb-8 text-sm text-gray-300">
-                            <div class="p-3.5 rounded-xl bg-black/40 border border-emeraldBorder/50">
-                                <div class="font-bold text-white flex items-center gap-2 mb-1">
-                                    <i class="fas fa-bolt text-gold"></i> 國際頂級成交系統
-                                </div>
-                                <p class="text-xs text-gray-400">
-                                    以 Dan Lok（駱鋒）高單價成交教練訓練為基礎，將高價值成交思維導入組織，協助企業打造持續自我運轉、創造複利價值的「資產型業務團隊」。
-                                </p>
-                            </div>
-
-                            <div class="p-3.5 rounded-xl bg-black/40 border border-emeraldBorder/50">
-                                <div class="font-bold text-white flex items-center gap-2 mb-1">
-                                    <i class="fas fa-database text-gold"></i> 40 年大數據與 AI 動態管理
-                                </div>
-                                <p class="text-xs text-gray-400">
-                                    以 40 年累積、超過千萬筆專業數據庫為基底，只要 10 分鐘，就能清楚看見「人才特質與職位需求」的真實落差！
-                                </p>
-                            </div>
-
-                            <div class="p-3.5 rounded-xl bg-black/40 border border-emeraldBorder/50">
-                                <div class="font-bold text-white flex items-center gap-2 mb-1">
-                                    <i class="fas fa-compass text-gold"></i> 落地指導方案
-                                </div>
-                                <p class="text-xs text-gray-400">
-                                    透過人才動態管理與 AI 教練系統，不再瞎猜盲摸，給予企業具體可行的建議：人該怎麼帶、任務該怎麼調、業績該怎麼突破。
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div>
-                        <a href="https://talent.elites888.com/" target="_blank" class="w-full text-center py-3.5 px-6 rounded-xl font-bold btn-gold-primary flex items-center justify-center gap-2 group">
-                            <span>了解更多</span>
-                            <i class="fas fa-arrow-right text-xs group-hover:translate-x-1 transition duration-300"></i>
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 5. 免費資源專區 (All-in-One 內嵌同頁) ================= -->
-    <section id="resources" class="py-20 bg-surface/50 border-t border-b border-gold/15 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <h2 class="font-serif text-3xl sm:text-4xl font-bold text-white">
-                    菁英成長<span class="text-gold">免費資源總覽</span>
-                </h2>
-            </div>
-
-            <!-- 三大免費資源模組卡 -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                
-                <!-- 資源 1：每月電子報 (Kit 送 AI 指令) -->
-                <div class="luxury-card rounded-2xl p-7 flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 rounded-xl bg-gold/15 border border-gold/30 flex items-center justify-center text-gold text-2xl mb-5">
-                            <i class="fas fa-envelope-open-text"></i>
-                        </div>
-                        <h3 class="font-serif text-xl font-bold text-white mt-1 mb-3">
-                            幕僚觀察隨筆
-                        </h3>
-                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
-                            分享 Ginger 的職場商業觀察、高階幕僚案例與最新趨勢分析。
-                        </p>
-                        
-                        <!-- 專屬贈品高亮標籤 -->
-                        <div class="p-3.5 rounded-xl bg-gold/10 border border-gold/30 mb-6">
-                            <div class="text-xs font-bold text-gold flex items-center gap-1.5 mb-1">
-                                <i class="fas fa-gift text-gold"></i> 訂閱專屬即時好禮
-                            </div>
-                            <div class="text-xs text-gray-200">
-                                立即免費獲贈<strong>《職涯資產健檢 AI 指令》</strong>，用 AI 快速盤點你的職涯資產！
-                            </div>
-                        </div>
-                    </div>
-
-                    <a href="https://the-socialite-academy.kit.com/7b8ae564bd" target="_blank" class="w-full text-center py-3 px-4 rounded-xl font-bold btn-gold-primary text-xs flex items-center justify-center gap-2">
-                        <i class="fas fa-paper-plane"></i>
-                        免費訂閱並領取 AI 指令
-                    </a>
-                </div>
-
-                <!-- 資源 2：YouTube 官方頻道 -->
-                <div class="luxury-card rounded-2xl p-7 flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 rounded-xl bg-red-600/15 border border-red-500/30 flex items-center justify-center text-red-500 text-2xl mb-5">
-                            <i class="fab fa-youtube"></i>
-                        </div>
-                        <h3 class="font-serif text-xl font-bold text-white mt-1 mb-3">
-                            Ginger 官方 YouTube 頻道
-                        </h3>
-                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
-                            主題涵蓋資產型思維、業務開發、職場定位、案例拆解。並不定期邀請厲害的業界專家，分享他們把資歷變資產的歷程與智慧。
-                        </p>
-                        
-                        <div class="space-y-2 mb-6 text-xs text-gray-400">
-                            <div class="flex items-center gap-2"><i class="fas fa-play text-red-400 text-[10px]"></i> 高階幕僚核心思考拆解</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-play text-red-400 text-[10px]"></i> 業務與談判策略</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-play text-red-400 text-[10px]"></i> 業界領袖深度對話訪談</div>
-                        </div>
-                    </div>
-
-                    <a href="https://www.youtube.com/@gingerlin8568" target="_blank" class="w-full text-center py-3 px-4 rounded-xl font-bold bg-[#FF0000] text-white hover:bg-red-700 transition duration-300 text-xs flex items-center justify-center gap-2 shadow-lg">
-                        <i class="fab fa-youtube"></i>
-                        點擊訂閱並開啟小鈴鐺
-                    </a>
-                </div>
-
-                <!-- 資源 3：隨身 Podcast 隨選隨聽 (Spotify & Buzzsprout) -->
-                <div class="luxury-card rounded-2xl p-7 flex flex-col justify-between">
-                    <div>
-                        <div class="w-12 h-12 rounded-xl bg-emeraldTone border border-emeraldBorder flex items-center justify-center text-[#1DB954] text-2xl mb-5">
-                            <i class="fas fa-podcast"></i>
-                        </div>
-                        <h3 class="font-serif text-xl font-bold text-white mt-1 mb-3">
-                            菁英隨身聽 Podcast
-                        </h3>
-                        <p class="text-sm text-gray-300 mb-4 leading-relaxed">
-                            通勤、運動與專注時刻的商務充電站。用聽覺吸收實用的思考模型，把碎片化時間轉化為認知資產。
-                        </p>
-
-                        <div class="space-y-2 mb-6 text-xs text-gray-400">
-                            <div class="flex items-center gap-2"><i class="fas fa-headphones text-gold text-[10px]"></i> 隨走隨聽，免盯螢幕的高效學習</div>
-                            <div class="flex items-center gap-2"><i class="fas fa-check text-gold text-[10px]"></i> 支援各大主流收聽平台</div>
-                        </div>
-                    </div>
-
-                    <div class="grid grid-cols-2 gap-2.5">
-                        <a href="https://open.spotify.com/show/7EKQQERlSVzEewlJ3zWlLt" target="_blank" class="py-2.5 px-3 rounded-lg bg-[#1DB954]/20 border border-[#1DB954]/50 text-[#1DB954] hover:bg-[#1DB954] hover:text-black transition duration-200 text-xs font-bold text-center flex items-center justify-center gap-1.5">
-                            <i class="fab fa-spotify"></i> Spotify 收聽
-                        </a>
-                        <a href="https://ginger.buzzsprout.com/" target="_blank" class="py-2.5 px-3 rounded-lg bg-surface border border-gray-700 text-gray-200 hover:border-gold hover:text-gold transition duration-200 text-xs font-bold text-center flex items-center justify-center gap-1.5">
-                            <i class="fas fa-rss"></i> Buzzsprout
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 6. 演講邀約 ＆ BNI 1-to-1 商務交流 ================= -->
-    <section id="speaking" class="py-20 relative">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-                
-                <!-- 演講與內訓邀約 -->
-                <div class="lg:col-span-6 luxury-card rounded-2xl p-7 sm:p-9 border-t-2 border-t-gold">
-                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
-                        企業內訓 ＆ 主題演講邀約
-                    </h3>
-                    <p class="text-gray-300 text-sm leading-relaxed mb-6">
-                        豐富的實體與線上演講歷練，能針對企業痛點、業務團隊士氣、中高階主管領導思維進行客製化策展。為組織帶來即刻可落地的實戰觀念轉換。
-                    </p>
-                    <ul class="space-y-2.5 text-xs sm:text-sm text-gray-300 mb-8">
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-gold"></i> 商業大會年會專題 Keynote 演講</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-gold"></i> 企業中高階幕僚與跨部門整合實務內訓</li>
-                        <li class="flex items-center gap-2"><i class="fas fa-check text-gold"></i> 高產值業務思維與高單價成交心法培訓</li>
-                    </ul>
-                    <a href="https://speech.elites888.com" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold btn-gold-primary text-sm">
-                        <i class="fas fa-microphone-alt"></i> 前往演講邀約專屬頁面
-                    </a>
-                </div>
-
-                <!-- BNI 1-to-1 商務交流 (更新為專屬連結) -->
-                <div id="bni" class="lg:col-span-6 emerald-gold-card rounded-2xl p-7 sm:p-9">
-                    <h3 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
-                        BNI 會員夥伴 <span class="nw">1-to-1 商務深談</span>
-                    </h3>
-                    <p class="text-gray-200 text-sm leading-relaxed mb-6">
-                        <strong><span class="nw">林逸蓁 Ginger Lin ｜</span> <span class="nw">BNI 新竹B區 創智 AI分會</span></strong><br>
-                        秉持 Givers Gain® 付出者收穫理念，歡迎 BNI 全球夥伴預約 <span class="nw">1-to-1</span> 深度對談。探討企業人才複製、業務合作引薦與各產業資源對接！
-                    </p>
-                    <div class="p-4 rounded-xl bg-black/40 border border-gold/30 mb-8 text-xs text-gray-300">
-                        <div class="text-gold font-bold mb-1 flex items-center gap-1.5">
-                            <i class="fas fa-calendar-alt"></i> 專屬 <span class="nw">1-to-1</span> 預約指引
-                        </div>
-                        點擊下方專屬日曆連結，即可選取合適的交流時段，讓我們在線上或線下進行精準商務合作探討。
-                    </div>
-                    <a href="https://calendly.com/urcareer101/bni" target="_blank" class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-bold btn-gold-primary text-sm">
-                        <i class="fas fa-calendar-check"></i> 立即預約 <span class="nw">BNI 1-to-1</span> (Calendly)
-                    </a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 7. 官方 LINE@ 專屬頻道 (QR Code & 第一手資訊) ================= -->
-    <section class="py-20 bg-gradient-to-b from-obsidian via-[#0a1813] to-obsidian border-t border-gold/20 relative">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="emerald-gold-card rounded-3xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
-                
-                <div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
-                    
-                    <!-- 左側：QR Code 尊榮展示 (包含官方墨綠金鑽石LOGO) -->
-                    <div class="md:col-span-5 flex flex-col items-center justify-center text-center">
-                        <div class="relative p-3.5 rounded-2xl bg-white shadow-2xl border-2 border-gold/60 max-w-[240px]">
-                            <img src="line_qrcode.png" alt="林逸蓁 LINE@ elites888 QR Code" class="w-full h-auto rounded-lg">
-                        </div>
-                        <div class="mt-3.5 text-center">
-                            <span class="text-xs uppercase font-bold tracking-widest text-gold px-3 py-1 rounded-full bg-black/50 border border-gold/30">
-                                專屬 ID：@elites888
-                            </span>
-                        </div>
-                    </div>
-
-                    <!-- 右側：加入獲取第一手活動/課程資訊與一鍵加好友 -->
-                    <div class="md:col-span-7">
-                        <h2 class="font-serif text-2xl sm:text-3xl font-bold text-white mb-4">
-                            加入【<span class="text-gold">職感菁英學院</span>】官方 LINE
-                        </h2>
-                        
-                        <div class="p-4 sm:p-5 rounded-2xl bg-black/40 border border-emeraldBorder/60 mb-6">
-                            <p class="text-base sm:text-lg text-white font-medium leading-relaxed">
-                                <i class="fas fa-bullhorn text-gold mr-2"></i> 加入官方 LINE@，即時獲取第一手的<span class="text-gold font-bold">活動、講座與<span class="nw">最新課程資訊</span></span>！
-                            </p>
-                            <p class="text-xs text-gray-400 mt-2">
-                                不論是新書線下見面會、實體一日工作坊或企業方案諮詢，優先在 LINE 官方帳號發布。
-                            </p>
-                        </div>
-
-                        <!-- 一鍵加好友按鈕 -->
-                        <div class="flex flex-col sm:flex-row gap-3">
-                            <a href="https://line.me/R/ti/p/@elites888" target="_blank" class="py-3.5 px-6 rounded-xl font-bold bg-[#06C755] hover:bg-[#05a847] text-white text-sm transition duration-300 flex items-center justify-center gap-2 shadow-lg">
-                                <i class="fab fa-line text-lg"></i>
-                                立即加入
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ================= 8. 全媒體社群矩陣與頁尾 (Footer) ================= -->
-    <footer class="bg-obsidian border-t border-gold/15 py-14">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            
-            <!-- 品牌 LOGO 與名稱 -->
-            <div class="flex items-center justify-center gap-3 mb-5">
-                <div class="w-10 h-10 rounded-xl overflow-hidden border border-gold/40 bg-black flex items-center justify-center p-0.5">
-                    <img src="official_diamond_logo.png" alt="職感菁英學院 LOGO" class="w-full h-full object-contain">
-                </div>
-                <div class="font-serif text-xl font-bold text-gold-gradient">
-                    <span class="nw">林逸蓁 Ginger Lin ｜</span> <span class="nw">職感菁英學院</span>
-                </div>
-            </div>
-
-            <!-- 核心金句 -->
-            <p class="text-sm text-gray-400 max-w-xl mx-auto mb-8 font-serif">
-                「讓每一段經歷產生複利，讓每一次投入都成為持續創造價值的資產」
-            </p>
-
-            <!-- 全媒體矩陣圖標直連 -->
-            <div class="flex flex-wrap items-center justify-center gap-4 mb-10">
-                <a href="https://www.youtube.com/@gingerlin8568" target="_blank" title="YouTube 官方頻道" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-red-500 hover:border-red-500 transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-youtube"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/ginger-lin-12b7a274/" target="_blank" title="LinkedIn 商業履歷" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#0A66C2] hover:border-[#0A66C2] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-                <a href="https://www.threads.com/@ginger.career.assets" target="_blank" title="Threads 日常觀點" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-white hover:border-gray-500 transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fa-brands fa-threads"></i>
-                </a>
-                <a href="https://www.instagram.com/47gingerlab/" target="_blank" title="Instagram 生活與思考" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#E1306C] hover:border-[#E1306C] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://open.spotify.com/show/7EKQQERlSVzEewlJ3zWlLt" target="_blank" title="Spotify 隨身播客" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#1DB954] hover:border-[#1DB954] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-spotify"></i>
-                </a>
-                <a href="https://ginger.buzzsprout.com/" target="_blank" title="Buzzsprout 播客" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-gold hover:border-gold transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fas fa-podcast"></i>
-                </a>
-                <a href="https://line.me/R/ti/p/@elites888" target="_blank" title="LINE 官方帳號" class="w-11 h-11 rounded-full bg-surface border border-gray-800 text-gray-400 hover:text-[#06C755] hover:border-[#06C755] transition duration-300 flex items-center justify-center text-lg">
-                    <i class="fab fa-line"></i>
-                </a>
-            </div>
-
-            <!-- 版權聲明 -->
-            <div class="text-xs text-gray-500 border-t border-gray-900 pt-8">
-                &copy; 2026 林逸蓁 Ginger Lin ｜ 職感菁英學院 The Elite Academy. All rights reserved.
-            </div>
-
-        </div>
-    </footer>
-
-</body>
-</html>
+      fetch('https://formsubmit.co/ajax/gingerlin0919@gmail.com', {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(form)
+      })
+        .then(function(res){ if (!res.ok) throw new Error('submit failed'); return res.json(); })
+        .then(function(){
+          msg.classList.add('show');
+          msg.scrollIntoView({behavior:'smooth', block:'center'});
+          form.reset();
+        })
+        .catch(function(){
+          errMsg.classList.add('show');
+          errMsg.scrollIntoView({behavior:'smooth', block:'center'});
+        })
+        .finally(function(){
+          submitBtn.disabled = false;
+          submitBtn.textContent = submitBtnDefaultText;
+        });
+    });
+  })();
+</script>
+<script>
+(function(){
+  var t=document.getElementById('calcToggle'), p=document.getElementById('calcPanel');
+  if(!t||!p) return;
+  var D={s:{pay:5,car:0.3,rec:5,gp:20,days:40,rate:0.19,gpl:'職缺空著時，這部分業績就做不到',rech:'刊登、面試時間、新人訓練'},
+         m:{pay:6.5,car:0.5,rec:26,gp:10,days:77,rate:0.18,gpl:'主管本人的業績毛利；團隊受影響的部分列在下方',rech:'獵頭費用約主管年薪 2 成，加上面試時間、到職訓練'}};
+  function role(){var r=document.querySelector('input[name="c-role"]:checked');return r?r.value:null;}
+  function v(id){var n=parseFloat(document.getElementById(id).value);return isNaN(n)||n<0?0:n;}
+  function f(n){return (n>=10?Math.round(n):Math.round(n*10)/10).toLocaleString('zh-TW')+' 萬';}
+  function load(r){var d=D[r];['pay','car','rec','gp','days'].forEach(function(k){document.getElementById('c-'+k).value=d[k];});
+    document.getElementById('c-gp-hint').textContent=d.gpl; document.getElementById('c-rec-hint').textContent=d.rech;}
+  function calc(){
+    var r=role(); if(!r) return; var d=D[r], pay=v('c-pay'), annual=pay*12;
+    var r1=annual*(1+d.rate)+v('c-car')*12, r2=v('c-rec'), r3=v('c-gp')*v('c-days')/30, tot=r1+r2+r3;
+    document.getElementById('o-r1').textContent=f(r1);
+    document.getElementById('o-r2').textContent=f(r2);
+    document.getElementById('o-r3').textContent=f(r3);
+    document.getElementById('o-tlabel').textContent=(r==='s'?'走一位業務，合計':'走一位業務主管，合計'); document.getElementById('o-t').innerHTML='約 '+f(tot)+(annual?'<br/>約年薪 '+(tot/annual).toFixed(1)+' 倍':'');
+  }
+  t.addEventListener('click',function(){
+    var open=p.hidden; p.hidden=!open; t.setAttribute('aria-expanded',open);
+    t.textContent=open?'收起試算':'算算貴公司的';
+    if(open) calc();
+  });
+  document.querySelectorAll('input[name="c-role"]').forEach(function(r){r.addEventListener('change',function(){load(role()); document.getElementById('calcBody').hidden=false; document.getElementById('c-role-name').textContent=(role()==='s'?'這位業務':'這位業務主管'); calc();});});
+  ['c-pay','c-car','c-rec','c-gp','c-days'].forEach(function(id){document.getElementById(id).addEventListener('input',calc);});
+  calc();
+})();
+</script>
+<script>
+/* 段落最後幾個字不單獨落行 */
+(function(){
+  function glue(el){
+    var w=document.createTreeWalker(el,NodeFilter.SHOW_TEXT,null),n,last=null;
+    while((n=w.nextNode())){ if(n.textContent.trim()) last=n; }
+    if(!last || last.parentNode.closest('.nw,a,button,input,select,textarea,script,style')) return;
+    var t=last.textContent.replace(/\s+$/,''), cut=t.length, count=0;
+    while(cut>0 && count<4){ cut--; if(!/[，。、；：！？」』）)．,.!?:;\s]/.test(t[cut])) count++; }
+    if(t.length-cut<3 || cut<2) return;
+    var span=document.createElement('span'); span.className='nw'; span.textContent=t.slice(cut);
+    last.textContent=t.slice(0,cut); last.parentNode.insertBefore(span,last.nextSibling);
+  }
+  document.querySelectorAll('p, li, h2, h3, small').forEach(function(el){
+    if(el.dataset.glued) return; el.dataset.glued=1;
+    if(el.querySelector('input,select,textarea')) return;
+    var d=getComputedStyle(el).display; if(/flex|grid/.test(d)) return;
+    if((el.innerText||'').trim().length<8) return;
+    glue(el);
+  });
+})();
+</script>
